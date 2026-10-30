@@ -45,6 +45,11 @@ Phần mềm quản lý tiệm Nail & Spa chuyên nghiệp, thiết kế tối �
    - Xuất dữ liệu ra file JSON để sao lưu USB hàng ngày và Khôi phục khi cần.
    - Tự tạo sẵn bộ dữ liệu mẫu (Demo seed) mô phỏng 60 ngày hoạt động thực tế.
 
+8. **Banner Quảng Cáo Header (Voucher, Sản Phẩm & Thêm Banner Từ Máy Local)**
+   - Đính một thanh banner dài nổi bật trên toàn bộ các trang tại thanh Navigation Header.
+   - Tự động xoay tua hiển thị các mã Voucher ưu đãi và Sản phẩm bán chạy của tiệm.
+   - Hỗ trợ tải trực tiếp hình ảnh banner từ máy tính cá nhân (`+ Banner máy`), lưu trữ offline trên trình duyệt (`localStorage`), có giao diện quản lý xóa/thêm ảnh nhanh chóng.
+
 ---
 
 ## 🚀 Cách Chạy Phần Mềm
