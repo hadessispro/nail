@@ -3,28 +3,73 @@
   "version": "2.0.0",
   "private": true,
   "description": "Rose Nail Spa · Phần mềm quản lý Salon Nails & POS bán hàng cảm ứng",
+  "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "serve": "node server.js"
+    "serve": "node server.js",
+    "electron:dev": "electron .",
+    "electron:pack": "electron-builder --dir",
+    "electron:build": "electron-builder --win"
   },
   "dependencies": {
+    "date-fns": "^4.1.0",
+    "lucide-react": "^1.16.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",
-    "zustand": "^5.0.3",
-    "lucide-react": "^1.16.0",
-    "date-fns": "^4.1.0"
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^45.2.1",
+    "electron-builder": "^26.18.0",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.3",
     "vite": "^6.1.0",
     "vite-plugin-singlefile": "^2.1.0"
+  },
+  "build": {
+    "appId": "com.rosenailspa.pos",
+    "productName": "Rose Nail Spa POS",
+    "copyright": "Copyright © 2026 Rose Nail Spa",
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Rose Nail Spa POS",
+      "installerIcon": "build/icon.ico",
+      "uninstallerIcon": "build/icon.ico",
+      "uninstallDisplayName": "Rose Nail Spa POS",
+      "artifactName": "Rose-Nail-Spa-Setup-${version}.${ext}"
+    },
+    "portable": {
+      "artifactName": "Rose-Nail-Spa-Portable-${version}.${ext}"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "build/icon.ico",
+      "build/icon.png",
+      "index.html",
+      "banner-nail-spa.png",
+      "package.json"
+    ],
+    "asar": true
   }
 }
