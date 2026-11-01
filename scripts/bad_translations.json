@@ -1,0 +1,2766 @@
+[
+  {
+    "vi": "${Zd(s.length,t.length)}% tổng hóa đơn",
+    "en": "${Zd(s.length,t.length)}% tổng invoices"
+  },
+  {
+    "vi": "${n.n} lần",
+    "en": "${n.n} lần"
+  },
+  {
+    "vi": "${n} · hiện có ${r} điểm",
+    "en": "${n} · hiện có ${r} points"
+  },
+  {
+    "vi": "${t} lịch",
+    "en": "${t} lịch"
+  },
+  {
+    "vi": "% doanh thu dịch vụ thợ được nhận",
+    "en": "% doanh thu services thợ được nhận"
+  },
+  {
+    "vi": "% tổng thu",
+    "en": "% tổng thu"
+  },
+  {
+    "vi": "%</b> · SĐT:",
+    "en": "%</b> · SĐT:"
+  },
+  {
+    "vi": "(Có",
+    "en": "(Có"
+  },
+  {
+    "vi": "(đổi trong Cài đặt)",
+    "en": "(đổi trong Settings)"
+  },
+  {
+    "vi": ").replace(/Đ/g,",
+    "en": ").replace(/Đ/g,"
+  },
+  {
+    "vi": ").replace(/đ/g,",
+    "en": ").replace(/đ/g,"
+  },
+  {
+    "vi": "+ Áp dụng banner này",
+    "en": "+ Apply banner này"
+  },
+  {
+    "vi": "/ cái",
+    "en": "/ cái"
+  },
+  {
+    "vi": "</b> đến <b>",
+    "en": "</b> đến <b>"
+  },
+  {
+    "vi": "<div><b>Thợ xác nhận</b></div>",
+    "en": "<div><b>Thợ confirm</b></div>"
+  },
+  {
+    "vi": "<title>Báo cáo thợ",
+    "en": "<title>Reports thợ"
+  },
+  {
+    "vi": ">Chủ tiệm / Quản lý</div>",
+    "en": ">Chủ tiệm / Quản lý</div>"
+  },
+  {
+    "vi": ">Doanh số dịch vụ mang về</div>",
+    "en": ">Service Sales mang về</div>"
+  },
+  {
+    "vi": ">Dịch vụ đã làm trong kỳ:</b>",
+    "en": ">Services đã làm trong kỳ:</b>"
+  },
+  {
+    "vi": ">Không có hóa đơn nào trong khoảng thời gian này</td></tr>",
+    "en": ">Không có invoices nào trong khoảng time này</td></tr>"
+  },
+  {
+    "vi": ">Số hóa đơn / Lượt làm</div>",
+    "en": ">Ticket Count / Lượt làm</div>"
+  },
+  {
+    "vi": ">Tiền tip nhận được</div>",
+    "en": ">Tips Received được</div>"
+  },
+  {
+    "vi": ">Tổng thực nhận (Hoa hồng + Tip)</div>",
+    "en": ">Total thực nhận (Commission + Tip)</div>"
+  },
+  {
+    "vi": "Bàn",
+    "en": "Bàn"
+  },
+  {
+    "vi": "Bàn ${t+1}",
+    "en": "Bàn ${t+1}"
+  },
+  {
+    "vi": "Bàn ${t+5}",
+    "en": "Bàn ${t+5}"
+  },
+  {
+    "vi": "Bùi",
+    "en": "Bùi"
+  },
+  {
+    "vi": "Bỏ dùng điểm",
+    "en": "Bỏ dùng points"
+  },
+  {
+    "vi": "Bỏ khách",
+    "en": "Bỏ clients"
+  },
+  {
+    "vi": "Bớt",
+    "en": "Bớt"
+  },
+  {
+    "vi": "Chi tiết",
+    "en": "Chi tiết"
+  },
+  {
+    "vi": "Chiều cao Banner:",
+    "en": "Chiều cao Banner:"
+  },
+  {
+    "vi": "Chuyển ghế",
+    "en": "Chuyển ghế"
+  },
+  {
+    "vi": "Chuyển sang Màn hình khách ngay trên máy này",
+    "en": "Chuyển sang Customer Kiosk ngay trên máy này"
+  },
+  {
+    "vi": "Chuẩn thiết kế tiệm",
+    "en": "Chuẩn thiết kế tiệm"
+  },
+  {
+    "vi": "Chuẩn tiệm",
+    "en": "Chuẩn tiệm"
+  },
+  {
+    "vi": "Chưa chọn",
+    "en": "Chưa chọn"
+  },
+  {
+    "vi": "Chưa chọn dịch vụ ·",
+    "en": "Chưa chọn services ·"
+  },
+  {
+    "vi": "Chưa có danh mục",
+    "en": "Chưa có category"
+  },
+  {
+    "vi": "Chưa có dịch vụ",
+    "en": "Chưa có services"
+  },
+  {
+    "vi": "Chưa có dịch vụ trên hóa đơn",
+    "en": "Chưa có services trên invoices"
+  },
+  {
+    "vi": "Chưa có dữ liệu trong khoảng này",
+    "en": "Chưa có dữ liệu trong khoảng này"
+  },
+  {
+    "vi": "Chưa có giao dịch điểm",
+    "en": "Chưa có transactions points"
+  },
+  {
+    "vi": "Chưa có hóa đơn",
+    "en": "Chưa có invoices"
+  },
+  {
+    "vi": "Chưa có hóa đơn nào dùng mã này.",
+    "en": "No invoices yet dùng mã này."
+  },
+  {
+    "vi": "Chưa có hóa đơn nào đang mở",
+    "en": "No invoices yet đang mở"
+  },
+  {
+    "vi": "Chưa có khách chờ",
+    "en": "Chưa có clients chờ"
+  },
+  {
+    "vi": "Chưa có lịch hẹn",
+    "en": "Chưa có appointments"
+  },
+  {
+    "vi": "Chưa có thông tin",
+    "en": "Chưa có thông tin"
+  },
+  {
+    "vi": "Chỉnh sơ đồ",
+    "en": "Chỉnh sơ đồ"
+  },
+  {
+    "vi": "Chỉnh sửa và xem trước ngay — thay đổi tự lưu",
+    "en": "Edit và xem trước ngay — thay đổi tự lưu"
+  },
+  {
+    "vi": "Chọn hoặc thêm khách…",
+    "en": "Chọn hoặc thêm clients…"
+  },
+  {
+    "vi": "Chọn máy in",
+    "en": "Chọn máy in"
+  },
+  {
+    "vi": "Chọn một khách hàng",
+    "en": "Chọn một client"
+  },
+  {
+    "vi": "Chọn một khách để xem điểm",
+    "en": "Chọn một clients để xem points"
+  },
+  {
+    "vi": "Chọn một vị trí đang trống",
+    "en": "Chọn một vị trí đang trống"
+  },
+  {
+    "vi": "Chọn ngày",
+    "en": "Chọn days"
+  },
+  {
+    "vi": "Chọn phạm vi xóa dữ liệu:",
+    "en": "Chọn phạm vi xóa dữ liệu:"
+  },
+  {
+    "vi": "Chọn thợ cho tất cả dịch vụ trước khi thanh toán",
+    "en": "Select Tech cho all services trước khi thanh toán"
+  },
+  {
+    "vi": "Chọn ít nhất một dịch vụ",
+    "en": "Chọn ít nhất một services"
+  },
+  {
+    "vi": "Chờ",
+    "en": "Chờ"
+  },
+  {
+    "vi": "Còn",
+    "en": "Còn"
+  },
+  {
+    "vi": "Còn lại phải thu",
+    "en": "Remaining phải thu"
+  },
+  {
+    "vi": "Còn thiếu",
+    "en": "Còn thiếu"
+  },
+  {
+    "vi": "Còn ≈",
+    "en": "Còn ≈"
+  },
+  {
+    "vi": "Có chỗ ngay",
+    "en": "Có chỗ ngay"
+  },
+  {
+    "vi": "Có thể đã được thanh toán hoặc hủy.",
+    "en": "Có thể đã được thanh toán hoặc hủy."
+  },
+  {
+    "vi": "Cũ hơn 30 ngày",
+    "en": "Cũ hơn 30 Days"
+  },
+  {
+    "vi": "Cơ cấu khách đã phục vụ",
+    "en": "Cơ cấu clients served"
+  },
+  {
+    "vi": "Cơ cấu thanh toán",
+    "en": "Cơ cấu thanh toán"
+  },
+  {
+    "vi": "Cảm ơn quý khách đã đến với Rose Nail Spa",
+    "en": "Cảm ơn quý clients đã đến với Rose Nail Spa"
+  },
+  {
+    "vi": "Cần chi tối thiểu $${r.minSpend} để dùng mã này",
+    "en": "Cần chi minimum $${r.minSpend} để dùng mã này"
+  },
+  {
+    "vi": "Cần chi tối thiểu ${W(e.minSpend)}",
+    "en": "Cần chi minimum ${W(e.minSpend)}"
+  },
+  {
+    "vi": "Cần quyền quản lý",
+    "en": "Cần quyền quản lý"
+  },
+  {
+    "vi": "Cần tối thiểu ${a.minRedeem} điểm để đổi.",
+    "en": "Cần minimum ${a.minRedeem} points để đổi."
+  },
+  {
+    "vi": "Cộng thêm · Add-on",
+    "en": "Cộng thêm · Add-on"
+  },
+  {
+    "vi": "Cửa ra vào",
+    "en": "Cửa ra vào"
+  },
+  {
+    "vi": "DANH SÁCH CHI TIẾT HÓA ĐƠN:",
+    "en": "DANH SÁCH CHI TIẾT HÓA ĐƠN:"
+  },
+  {
+    "vi": "Doanh số thợ ($)",
+    "en": "Sales thợ ($)"
+  },
+  {
+    "vi": "Doanh thu cao nhất",
+    "en": "Revenue cao nhất"
+  },
+  {
+    "vi": "Doanh thu theo thợ (Click xem chi tiết)",
+    "en": "Revenue theo thợ (Click xem chi tiết)"
+  },
+  {
+    "vi": "Dòng chân trang",
+    "en": "Dòng chân trang"
+  },
+  {
+    "vi": "Dùng ${g.pointsUsed} điểm",
+    "en": "Dùng ${g.pointsUsed} points"
+  },
+  {
+    "vi": "Dùng cho lưới lịch hẹn theo giờ",
+    "en": "Dùng cho lưới appointments theo giờ"
+  },
+  {
+    "vi": "Dùng cho mục chưa có trong danh mục",
+    "en": "Dùng cho mục chưa có trong category"
+  },
+  {
+    "vi": "Dùng nhiều nhất",
+    "en": "Dùng nhiều nhất"
+  },
+  {
+    "vi": "Dùng điểm",
+    "en": "Dùng points"
+  },
+  {
+    "vi": "Dùng điểm tích lũy",
+    "en": "Dùng points tích lũy"
+  },
+  {
+    "vi": "Dị ứng acetone nhẹ — dùng remover không acetone",
+    "en": "Dị ứng acetone nhẹ — dùng remover không acetone"
+  },
+  {
+    "vi": "Dịch vụ / mục tự nhập",
+    "en": "Services / mục tự nhập"
+  },
+  {
+    "vi": "Dịch vụ muốn làm (",
+    "en": "Services muốn làm ("
+  },
+  {
+    "vi": "Dịch vụ thợ đã thực hiện trong kỳ:",
+    "en": "Services thợ đã performed trong kỳ:"
+  },
+  {
+    "vi": "Dịch vụ đã làm",
+    "en": "Services đã làm"
+  },
+  {
+    "vi": "Dịch vụ được dùng nhiều nhất (số lượt)",
+    "en": "Services được dùng nhiều nhất (số turns)"
+  },
+  {
+    "vi": "Dữ liệu",
+    "en": "Dữ liệu"
+  },
+  {
+    "vi": "Dữ liệu lưu ngay trên máy này. Nên sao lưu ra USB mỗi ngày.",
+    "en": "Dữ liệu lưu ngay trên máy này. Nên backup ra USB mỗi days."
+  },
+  {
+    "vi": "Dự kiến",
+    "en": "Dự kiến"
+  },
+  {
+    "vi": "File chứa ${n.invoices.length} hóa đơn, ${n.customers.length} khách. Dữ liệu hiện tại trên máy sẽ bị thay thế.",
+    "en": "File chứa ${n.invoices.length} invoices, ${n.customers.length} clients. Dữ liệu hiện tại trên máy sẽ bị thay thế."
+  },
+  {
+    "vi": "File không hợp lệ — hãy chọn file sao lưu của phần mềm này",
+    "en": "File không hợp lệ — hãy chọn file backup của phần mềm này"
+  },
+  {
+    "vi": "Ghi chú nội bộ",
+    "en": "Notes nội bộ"
+  },
+  {
+    "vi": "Ghé gần nhất",
+    "en": "Ghé gần nhất"
+  },
+  {
+    "vi": "Ghế ${t*2+1}",
+    "en": "Ghế ${t*2+1}"
+  },
+  {
+    "vi": "Ghế ${t*2+2}",
+    "en": "Ghế ${t*2+2}"
+  },
+  {
+    "vi": "Ghế pedicure",
+    "en": "Ghế pedicure"
+  },
+  {
+    "vi": "Giao diện",
+    "en": "Giao diện"
+  },
+  {
+    "vi": "Giá ($)",
+    "en": "Giá ($)"
+  },
+  {
+    "vi": "Giá trị",
+    "en": "Giá trị"
+  },
+  {
+    "vi": "Giá trị đổi",
+    "en": "Giá trị đổi"
+  },
+  {
+    "vi": "Giảm (đô)",
+    "en": "Off (đô)"
+  },
+  {
+    "vi": "Giới thiệu bạn bè",
+    "en": "Giới thiệu bạn bè"
+  },
+  {
+    "vi": "Giờ mở cửa",
+    "en": "Giờ mở cửa"
+  },
+  {
+    "vi": "Gắn khách hàng",
+    "en": "Gắn client"
+  },
+  {
+    "vi": "Gắn khách hàng (tích điểm, voucher)",
+    "en": "Gắn client (tích points, voucher)"
+  },
+  {
+    "vi": "Gắn khách hàng để dùng điểm",
+    "en": "Gắn client để dùng points"
+  },
+  {
+    "vi": "Gọn gàng",
+    "en": "Gọn gàng"
+  },
+  {
+    "vi": "Gỡ voucher",
+    "en": "Gỡ voucher"
+  },
+  {
+    "vi": "Hai mẹ con",
+    "en": "Hai mẹ con"
+  },
+  {
+    "vi": "Hay đi cùng con gái (Kids)",
+    "en": "Hay đi cùng con gái (Kids)"
+  },
+  {
+    "vi": "Hay đặt lịch thứ Bảy",
+    "en": "Hay đặt lịch Saturday"
+  },
+  {
+    "vi": "Hiển thị",
+    "en": "Hiển thị"
+  },
+  {
+    "vi": "Hoa hồng phải từ 0 đến 100%",
+    "en": "Commission phải từ 0 đến 100%"
+  },
+  {
+    "vi": "Hoàn tất",
+    "en": "Hoàn tất"
+  },
+  {
+    "vi": "Hoàn tất (",
+    "en": "Hoàn tất ("
+  },
+  {
+    "vi": "Hoàn tất ·",
+    "en": "Hoàn tất ·"
+  },
+  {
+    "vi": "Hoàng",
+    "en": "Hoàng"
+  },
+  {
+    "vi": "Hoặc chọn voucher còn hiệu lực",
+    "en": "Hoặc chọn voucher còn hiệu lực"
+  },
+  {
+    "vi": "Hàng chờ",
+    "en": "Hàng chờ"
+  },
+  {
+    "vi": "Hình thức",
+    "en": "Hình thức"
+  },
+  {
+    "vi": "Hóa đơn cũ không bị ảnh hưởng.",
+    "en": "Invoices cũ không bị ảnh hưởng."
+  },
+  {
+    "vi": "Hóa đơn cũ vẫn giữ tên thợ. Nếu thợ chỉ nghỉ tạm, hãy tắt “Đang làm việc” thay vì xóa.",
+    "en": "Invoices cũ vẫn giữ tên thợ. Nếu thợ chỉ off duty tạm, hãy tắt “Busy việc” thay vì xóa."
+  },
+  {
+    "vi": "Hóa đơn cũ vẫn được giữ lại trong lịch sử. Điểm tích lũy của khách sẽ không còn tra cứu được.",
+    "en": "Invoices cũ vẫn được giữ lại trong lịch sử. Loyalty Points của clients sẽ không còn tra cứu được."
+  },
+  {
+    "vi": "Hóa đơn dùng voucher",
+    "en": "Invoices dùng voucher"
+  },
+  {
+    "vi": "Hóa đơn khách vãng lai",
+    "en": "Invoices clients vãng lai"
+  },
+  {
+    "vi": "Hóa đơn này chưa đủ giá trị để dùng điểm (tối đa ${a.maxPercent}% hóa đơn).",
+    "en": "Invoices này chưa đủ giá trị để dùng points (maximum ${a.maxPercent}% invoices)."
+  },
+  {
+    "vi": "Hóa đơn này không còn mở",
+    "en": "Invoices này không còn mở"
+  },
+  {
+    "vi": "Hóa đơn sẽ có sẵn:",
+    "en": "Invoices sẽ có sẵn:"
+  },
+  {
+    "vi": "Hóa đơn đang mở",
+    "en": "Invoices đang mở"
+  },
+  {
+    "vi": "Hóa đơn đã dùng mã này vẫn được giữ nguyên.",
+    "en": "Invoices đã dùng mã này vẫn được giữ nguyên."
+  },
+  {
+    "vi": "HĐ",
+    "en": "HĐ"
+  },
+  {
+    "vi": "HĐ /",
+    "en": "HĐ /"
+  },
+  {
+    "vi": "HĐ ·",
+    "en": "HĐ ·"
+  },
+  {
+    "vi": "HĐ)</td>",
+    "en": "HĐ)</td>"
+  },
+  {
+    "vi": "Hơ",
+    "en": "Hơ"
+  },
+  {
+    "vi": "Hơ ${t+1}",
+    "en": "Hơ ${t+1}"
+  },
+  {
+    "vi": "Hẹn",
+    "en": "Hẹn"
+  },
+  {
+    "vi": "Hết chỗ loại này",
+    "en": "Hết chỗ loại này"
+  },
+  {
+    "vi": "Hết hạn",
+    "en": "Hết hạn"
+  },
+  {
+    "vi": "Họ tên đầy đủ",
+    "en": "Họ tên đầy đủ"
+  },
+  {
+    "vi": "Hồ sơ và yêu cầu của quý khách đã được đồng bộ trực tiếp lên hệ thống quầy thu ngân!",
+    "en": "Hồ sơ và yêu cầu của quý clients đã được đồng bộ trực tiếp lên hệ thống quầy thu ngân!"
+  },
+  {
+    "vi": "Hồng Đào",
+    "en": "Hồng Đào"
+  },
+  {
+    "vi": "Hỗ trợ PNG, JPG, WEBP. Kích thước lý tưởng: 1600x100 hoặc 1024x64. Ảnh tự động hiển thị đúng tỉ lệ chuẩn không bị méo hình!",
+    "en": "Hỗ trợ PNG, JPG, WEBP. Kích thước lý tưởng: 1600x100 hoặc 1024x64. Ảnh tự động hiển thị đúng tỉ lệ chuẩn không bị méo hình!"
+  },
+  {
+    "vi": "Hủy",
+    "en": "Hủy"
+  },
+  {
+    "vi": "Hủy / Bỏ qua",
+    "en": "Hủy / Bỏ qua"
+  },
+  {
+    "vi": "Hủy HĐ",
+    "en": "Hủy HĐ"
+  },
+  {
+    "vi": "Hủy hóa đơn này?",
+    "en": "Void Invoice này?"
+  },
+  {
+    "vi": "In hóa đơn ra máy in nhiệt hoặc máy in thường",
+    "en": "Print Receipt ra máy in nhiệt hoặc máy in thường"
+  },
+  {
+    "vi": "In lại",
+    "en": "In lại"
+  },
+  {
+    "vi": "In thử",
+    "en": "In thử"
+  },
+  {
+    "vi": "In thử một hóa đơn mẫu",
+    "en": "In thử một invoices mẫu"
+  },
+  {
+    "vi": "Khu chờ",
+    "en": "Khu chờ"
+  },
+  {
+    "vi": "Khu hơ khô",
+    "en": "Khu hơ khô"
+  },
+  {
+    "vi": "Khu làm móng tay",
+    "en": "Khu làm móng tay"
+  },
+  {
+    "vi": "Khuyên dùng cho iPad Remote Desktop",
+    "en": "Khuyên dùng cho iPad Remote Desktop"
+  },
+  {
+    "vi": "Khuyến mãi Tết (đã hết hạn)",
+    "en": "Khuyến mãi Tết (đã expired)"
+  },
+  {
+    "vi": "Khác",
+    "en": "Khác"
+  },
+  {
+    "vi": "Khách VIP, luôn tip tốt",
+    "en": "Clients VIP, luôn tip tốt"
+  },
+  {
+    "vi": "Khách chi tiêu nhiều nhất",
+    "en": "Clients chi tiêu nhiều nhất"
+  },
+  {
+    "vi": "Khách cũ…",
+    "en": "Clients cũ…"
+  },
+  {
+    "vi": "Khách khác…",
+    "en": "Clients khác…"
+  },
+  {
+    "vi": "Khách mới trong kỳ",
+    "en": "New Client trong kỳ"
+  },
+  {
+    "vi": "Khách từ",
+    "en": "Clients từ"
+  },
+  {
+    "vi": "Khách vừa check-in trên iPad. Bấm",
+    "en": "Clients vừa check-in trên iPad. Bấm"
+  },
+  {
+    "vi": "Khách walk-in đến mà chưa có chỗ, thêm vào đây để không quên thứ tự.",
+    "en": "Clients walk-in đến mà chưa có chỗ, thêm vào đây để không quên thứ tự."
+  },
+  {
+    "vi": "Khách đang có điểm",
+    "en": "Clients đang có points"
+  },
+  {
+    "vi": "Khách đã lưu",
+    "en": "Clients đã lưu"
+  },
+  {
+    "vi": "Khách đã xóa",
+    "en": "Clients đã xóa"
+  },
+  {
+    "vi": "Khách đến · Tạo hóa đơn",
+    "en": "Clients đến · Tạo invoices"
+  },
+  {
+    "vi": "Khánh Hà",
+    "en": "Khánh Hà"
+  },
+  {
+    "vi": "Khôi phục",
+    "en": "Khôi phục"
+  },
+  {
+    "vi": "Khôi phục lịch hẹn",
+    "en": "Khôi phục appointments"
+  },
+  {
+    "vi": "Khôi phục từ file",
+    "en": "Khôi phục từ file"
+  },
+  {
+    "vi": "Khôi phục từ file sao lưu?",
+    "en": "Khôi phục từ file backup?"
+  },
+  {
+    "vi": "Không",
+    "en": "Không"
+  },
+  {
+    "vi": "Không bắt buộc",
+    "en": "Không required"
+  },
+  {
+    "vi": "Không còn lịch hẹn hôm nay",
+    "en": "Không còn appointments today"
+  },
+  {
+    "vi": "Không có SĐT",
+    "en": "Không có SĐT"
+  },
+  {
+    "vi": "Không có dịch vụ phù hợp",
+    "en": "Không có services phù hợp"
+  },
+  {
+    "vi": "Không có hóa đơn phù hợp",
+    "en": "Không có invoices phù hợp"
+  },
+  {
+    "vi": "Không có khách chờ",
+    "en": "Không có clients chờ"
+  },
+  {
+    "vi": "Không có lịch hẹn trong 3 giờ tới",
+    "en": "No appointments trong 3 hrs tới"
+  },
+  {
+    "vi": "Không có voucher nào",
+    "en": "Không có voucher nào"
+  },
+  {
+    "vi": "Không có voucher nào còn hiệu lực",
+    "en": "Không có voucher nào còn hiệu lực"
+  },
+  {
+    "vi": "Không giới hạn",
+    "en": "Không giới hạn"
+  },
+  {
+    "vi": "Không giới hạn số lần dùng",
+    "en": "Không giới hạn số lần dùng"
+  },
+  {
+    "vi": "Không hết hạn",
+    "en": "Không expired"
+  },
+  {
+    "vi": "Không thể trừ quá số dư",
+    "en": "Không thể trừ quá số dư"
+  },
+  {
+    "vi": "Không tìm thấy hóa đơn nào phù hợp với thợ trong khoảng thời gian này.",
+    "en": "Không tìm thấy invoices nào phù hợp với thợ trong khoảng time này."
+  },
+  {
+    "vi": "Không tìm thấy khách",
+    "en": "Không tìm thấy clients"
+  },
+  {
+    "vi": "Không tìm thấy mã này",
+    "en": "Không tìm thấy mã này"
+  },
+  {
+    "vi": "Khẩu hiệu / loại hình",
+    "en": "Khẩu hiệu / loại hình"
+  },
+  {
+    "vi": "Khổ nhỏ, giấy hẹp",
+    "en": "Khổ nhỏ, giấy hẹp"
+  },
+  {
+    "vi": "Khổ phổ biến nhất (Epson, Xprinter…)",
+    "en": "Khổ phổ biến nhất (Epson, Xprinter…)"
+  },
+  {
+    "vi": "Kiểu khớp ảnh:",
+    "en": "Kiểu khớp ảnh:"
+  },
+  {
+    "vi": "Kéo thả để sắp xếp · chạm để đổi tên / xóa",
+    "en": "Drag to reorder · chạm để đổi tên / xóa"
+  },
+  {
+    "vi": "Kính chào",
+    "en": "Kính chào"
+  },
+  {
+    "vi": "Kết thúc lúc ${z(ie,",
+    "en": "Kết thúc lúc ${z(ie,"
+  },
+  {
+    "vi": "Laser / phun mực văn phòng",
+    "en": "Laser / phun mực văn phòng"
+  },
+  {
+    "vi": "Linda Võ",
+    "en": "Linda Võ"
+  },
+  {
+    "vi": "Loại",
+    "en": "Loại"
+  },
+  {
+    "vi": "Loại giảm",
+    "en": "Loại giảm"
+  },
+  {
+    "vi": "Loại máy in",
+    "en": "Loại máy in"
+  },
+  {
+    "vi": "Lê",
+    "en": "Lê"
+  },
+  {
+    "vi": "Lê Hồng Đào",
+    "en": "Lê Hồng Đào"
+  },
+  {
+    "vi": "Lên",
+    "en": "Lên"
+  },
+  {
+    "vi": "Lý do (bắt buộc)",
+    "en": "Lý do (required)"
+  },
+  {
+    "vi": "Lưu",
+    "en": "Lưu"
+  },
+  {
+    "vi": "Lưu PIN mới",
+    "en": "Lưu PIN mới"
+  },
+  {
+    "vi": "Lưu điều chỉnh",
+    "en": "Lưu điều chỉnh"
+  },
+  {
+    "vi": "Lượt dịch vụ",
+    "en": "Lượt services"
+  },
+  {
+    "vi": "Lần đầu ghé",
+    "en": "Lần đầu ghé"
+  },
+  {
+    "vi": "Lịch hẹn sắp đến",
+    "en": "Appointments sắp đến"
+  },
+  {
+    "vi": "Lịch hẹn theo thợ",
+    "en": "Appointments theo thợ"
+  },
+  {
+    "vi": "Lớn",
+    "en": "Lớn"
+  },
+  {
+    "vi": "Lớn nổi bật",
+    "en": "Lớn nổi bật"
+  },
+  {
+    "vi": "Mang mẫu design",
+    "en": "Mang mẫu design"
+  },
+  {
+    "vi": "Muốn gel màu hồng",
+    "en": "Muốn gel màu hồng"
+  },
+  {
+    "vi": "Muốn thợ (không bắt buộc)",
+    "en": "Muốn thợ (không required)"
+  },
+  {
+    "vi": "Màu nhận diện",
+    "en": "Màu nhận diện"
+  },
+  {
+    "vi": "Màu nhận diện ở quầy",
+    "en": "Màu nhận diện ở quầy"
+  },
+  {
+    "vi": "Máy in",
+    "en": "Máy in"
+  },
+  {
+    "vi": "Máy in nhiệt",
+    "en": "Máy in nhiệt"
+  },
+  {
+    "vi": "Máy in nhiệt 58mm",
+    "en": "Máy in nhiệt 58mm"
+  },
+  {
+    "vi": "Máy in nhiệt 80mm",
+    "en": "Máy in nhiệt 80mm"
+  },
+  {
+    "vi": "Máy in thường (A4)",
+    "en": "Máy in thường (A4)"
+  },
+  {
+    "vi": "Máy in: ${t.printer.name}",
+    "en": "Máy in: ${t.printer.name}"
+  },
+  {
+    "vi": "Mã",
+    "en": "Mã"
+  },
+  {
+    "vi": "Mã PIN bảo vệ Báo cáo, Dịch vụ, Thợ, Mẫu hóa đơn và Cài đặt",
+    "en": "PIN Code bảo vệ Reports, Services, Thợ, Mẫu invoices và Settings"
+  },
+  {
+    "vi": "Mã PIN bảo vệ tránh khách hàng bấm nhầm vào phần quản trị",
+    "en": "PIN Code bảo vệ tránh client bấm nhầm vào phần admin"
+  },
+  {
+    "vi": "Mã PIN không đúng! (Mặc định: 1234)",
+    "en": "Incorrect PIN! (Mặc định: 1234)"
+  },
+  {
+    "vi": "Mã PIN không đúng! Vui lòng kiểm tra lại.",
+    "en": "Incorrect PIN! Vui lòng kiểm tra lại."
+  },
+  {
+    "vi": "Mã PIN không đúng! Vui lòng nhập đúng mã PIN chủ tiệm.",
+    "en": "Incorrect PIN! Vui lòng nhập đúng mã PIN chủ tiệm."
+  },
+  {
+    "vi": "Mã này đã tồn tại",
+    "en": "Mã này đã tồn tại"
+  },
+  {
+    "vi": "Mã voucher",
+    "en": "Mã voucher"
+  },
+  {
+    "vi": "Móng yếu, ưu tiên gel",
+    "en": "Móng yếu, ưu tiên gel"
+  },
+  {
+    "vi": "Mùa hè giảm $5",
+    "en": "Mùa hè giảm $5"
+  },
+  {
+    "vi": "Mẫu hóa đơn",
+    "en": "Mẫu invoices"
+  },
+  {
+    "vi": "Mẫu thiết kế chuẩn tiệm (1024x64 / 1600x100)",
+    "en": "Mẫu thiết kế chuẩn tiệm (1024x64 / 1600x100)"
+  },
+  {
+    "vi": "Mặc định: 1234",
+    "en": "Mặc định: 1234"
+  },
+  {
+    "vi": "Mẹo: bấm trực tiếp vào ô giá để sửa nhanh, nhấn Enter hoặc bấm ra ngoài để lưu.",
+    "en": "Mẹo: bấm trực tiếp vào ô giá để sửa nhanh, nhấn Enter hoặc bấm ra ngoài để lưu."
+  },
+  {
+    "vi": "Mọi hình thức",
+    "en": "Mọi hình thức"
+  },
+  {
+    "vi": "Mọi thay đổi bạn đã làm trong bản demo sẽ bị xóa và thay bằng dữ liệu mẫu mới.",
+    "en": "Mọi thay đổi bạn đã làm trong bản demo sẽ bị xóa và thay bằng dữ liệu mẫu mới."
+  },
+  {
+    "vi": "Mỗi",
+    "en": "Mỗi"
+  },
+  {
+    "vi": "Mới thêm",
+    "en": "Mới thêm"
+  },
+  {
+    "vi": "Mở Cửa sổ Màn hình Khách riêng biệt",
+    "en": "Mở Cửa sổ Màn hình Clients riêng biệt"
+  },
+  {
+    "vi": "Mở cửa sổ màn hình khách",
+    "en": "Open sổ màn hình clients"
+  },
+  {
+    "vi": "Mở hóa đơn",
+    "en": "Mở invoices"
+  },
+  {
+    "vi": "Mở hóa đơn đang làm",
+    "en": "Mở invoices busy"
+  },
+  {
+    "vi": "Mở màn hình khách iPad",
+    "en": "Mở màn hình clients iPad"
+  },
+  {
+    "vi": "Mục tự nhập",
+    "en": "Mục tự nhập"
+  },
+  {
+    "vi": "Mức tip ${t+1}",
+    "en": "Mức tip ${t+1}"
+  },
+  {
+    "vi": "Mức tip gợi ý (%) khi thanh toán",
+    "en": "Mức tip gợi ý (%) khi thanh toán"
+  },
+  {
+    "vi": "Nguyễn",
+    "en": "Nguyễn"
+  },
+  {
+    "vi": "Nguyễn Cao Kỳ Duyên",
+    "en": "Nguyễn Cao Kỳ Duyên"
+  },
+  {
+    "vi": "Nguyễn Hưng",
+    "en": "Nguyễn Hưng"
+  },
+  {
+    "vi": "Nguyễn Thị Mai",
+    "en": "Nguyễn Thị Mai"
+  },
+  {
+    "vi": "Ngày giờ",
+    "en": "Day giờ"
+  },
+  {
+    "vi": "Nhập giá hợp lệ",
+    "en": "Nhập giá hợp lệ"
+  },
+  {
+    "vi": "Nhập giá trị giảm lớn hơn 0",
+    "en": "Nhập giá trị giảm lớn hơn 0"
+  },
+  {
+    "vi": "Nhập mã PIN (••••)",
+    "en": "Nhập mã PIN (••••)"
+  },
+  {
+    "vi": "Nhập mã PIN của tiệm để quay về Màn hình quản lý POS",
+    "en": "Nhập mã PIN của tiệm để quay về Màn hình quản lý POS"
+  },
+  {
+    "vi": "Nhập mã PIN để mở",
+    "en": "Nhập mã PIN để mở"
+  },
+  {
+    "vi": "Nhập mã PIN để tiếp tục",
+    "en": "Nhập mã PIN để continue"
+  },
+  {
+    "vi": "Nhập tên dịch vụ",
+    "en": "Nhập tên services"
+  },
+  {
+    "vi": "Nhập tên hiển thị",
+    "en": "Nhập tên hiển thị"
+  },
+  {
+    "vi": "Nhỏ",
+    "en": "Nhỏ"
+  },
+  {
+    "vi": "Nếu chỉ muốn báo khách không đến, hãy chuyển trạng thái “Đã hủy” để còn thống kê.",
+    "en": "Nếu chỉ muốn báo clients không đến, hãy chuyển status “Cancelled” để còn thống kê."
+  },
+  {
+    "vi": "Nội dung",
+    "en": "Nội dung"
+  },
+  {
+    "vi": "Ombré",
+    "en": "Ombré"
+  },
+  {
+    "vi": "Phòng",
+    "en": "Phòng"
+  },
+  {
+    "vi": "Phòng ${t+1}",
+    "en": "Phòng ${t+1}"
+  },
+  {
+    "vi": "Phòng wax",
+    "en": "Phòng wax"
+  },
+  {
+    "vi": "Phương thức TT",
+    "en": "Phương thức TT"
+  },
+  {
+    "vi": "Phạm",
+    "en": "Phạm"
+  },
+  {
+    "vi": "Phạm Khánh Hà",
+    "en": "Phạm Khánh Hà"
+  },
+  {
+    "vi": "Phần mềm chạy hoàn toàn trên máy này, không cần Internet",
+    "en": "Phần mềm chạy hoàn toàn trên máy này, không cần Internet"
+  },
+  {
+    "vi": "Phần mềm gặp lỗi",
+    "en": "Phần mềm gặp lỗi"
+  },
+  {
+    "vi": "Phần trăm (%)",
+    "en": "Phần trăm (%)"
+  },
+  {
+    "vi": "Phần trăm tối đa là 100",
+    "en": "Phần trăm maximum là 100"
+  },
+  {
+    "vi": "Quay lại",
+    "en": "Quay lại"
+  },
+  {
+    "vi": "Quy tắc",
+    "en": "Quy tắc"
+  },
+  {
+    "vi": "Quy tắc cộng / đổi điểm và số dư của từng khách",
+    "en": "Quy tắc cộng / đổi points và số dư của từng clients"
+  },
+  {
+    "vi": "Quy đổi:",
+    "en": "Quy đổi:"
+  },
+  {
+    "vi": "Quá giờ",
+    "en": "Quá giờ"
+  },
+  {
+    "vi": "Quý 1",
+    "en": "Quý 1"
+  },
+  {
+    "vi": "Quý 2",
+    "en": "Quý 2"
+  },
+  {
+    "vi": "Quý 3",
+    "en": "Quý 3"
+  },
+  {
+    "vi": "Quý 4",
+    "en": "Quý 4"
+  },
+  {
+    "vi": "Quản Lý & Xóa Dữ Liệu Báo Cáo",
+    "en": "Quản Lý & Xóa Dữ Liệu Báo Cáo"
+  },
+  {
+    "vi": "Quản lý Banner quảng cáo Header",
+    "en": "Quản lý Banner quảng cáo Header"
+  },
+  {
+    "vi": "Quản lý banner, tùy chỉnh chiều cao & tải ảnh",
+    "en": "Quản lý banner, custom chiều cao & tải ảnh"
+  },
+  {
+    "vi": "Quầy thu ngân",
+    "en": "Register thu ngân"
+  },
+  {
+    "vi": "Rose Nail Spa (Thiết kế tiệm)",
+    "en": "Rose Nail Spa (Nail Art tiệm)"
+  },
+  {
+    "vi": "Rõ từng chữ",
+    "en": "Rõ từng chữ"
+  },
+  {
+    "vi": "Rất lớn",
+    "en": "Rất lớn"
+  },
+  {
+    "vi": "Sai mã PIN, thử lại",
+    "en": "Sai mã PIN, thử lại"
+  },
+  {
+    "vi": "Sao chép mã",
+    "en": "Copy mã"
+  },
+  {
+    "vi": "Sao lưu (.json)",
+    "en": "Sao lưu (.json)"
+  },
+  {
+    "vi": "Sinh nhật",
+    "en": "Sinh nhật"
+  },
+  {
+    "vi": "Sinh nhật khách",
+    "en": "Sinh nhật clients"
+  },
+  {
+    "vi": "SĐT",
+    "en": "SĐT"
+  },
+  {
+    "vi": "Sơ đồ tiệm",
+    "en": "Floor Plan tiệm"
+  },
+  {
+    "vi": "SẢN PHẨM",
+    "en": "SẢN PHẨM"
+  },
+  {
+    "vi": "Sản phẩm chăm sóc móng chính hãng tại tiệm",
+    "en": "Products chăm sóc móng chính hãng tại tiệm"
+  },
+  {
+    "vi": "Số bản in",
+    "en": "Số bản in"
+  },
+  {
+    "vi": "Số bản mỗi lần in",
+    "en": "Số bản mỗi lần in"
+  },
+  {
+    "vi": "Số dư",
+    "en": "Số dư"
+  },
+  {
+    "vi": "Số dư sau điều chỉnh:",
+    "en": "Số dư sau điều chỉnh:"
+  },
+  {
+    "vi": "Số dư điểm",
+    "en": "Số dư points"
+  },
+  {
+    "vi": "Số dịch vụ thực hiện",
+    "en": "Số services performed"
+  },
+  {
+    "vi": "Số giao dịch",
+    "en": "Số transactions"
+  },
+  {
+    "vi": "Số hóa đơn phục vụ",
+    "en": "Ticket Count phục vụ"
+  },
+  {
+    "vi": "Số hóa đơn, tên khách, SĐT…",
+    "en": "Ticket Count, tên clients, SĐT…"
+  },
+  {
+    "vi": "Số loại dịch vụ đã dùng",
+    "en": "Số loại services đã dùng"
+  },
+  {
+    "vi": "Số lượt",
+    "en": "Số turns"
+  },
+  {
+    "vi": "Số lượt dùng tối thiểu là 1",
+    "en": "Số turns dùng minimum là 1"
+  },
+  {
+    "vi": "Số lượt dùng tối đa",
+    "en": "Số turns dùng maximum"
+  },
+  {
+    "vi": "Số lần dùng",
+    "en": "Số lần dùng"
+  },
+  {
+    "vi": "Số lần ghé",
+    "en": "Số visits"
+  },
+  {
+    "vi": "Số lịch hẹn theo ngày",
+    "en": "Số appointments theo days"
+  },
+  {
+    "vi": "Số người",
+    "en": "Số người"
+  },
+  {
+    "vi": "Số này đã có khách khác dùng",
+    "en": "Số này đã có clients khác dùng"
+  },
+  {
+    "vi": "Số thứ tự chờ phục vụ: #",
+    "en": "Số thứ tự chờ phục vụ: #"
+  },
+  {
+    "vi": "Số điện thoại cần 10 chữ số",
+    "en": "Phone Number cần 10 chữ số"
+  },
+  {
+    "vi": "Sở thích, dị ứng, lưu ý khi làm…",
+    "en": "Sở thích, dị ứng, lưu ý khi làm…"
+  },
+  {
+    "vi": "Sửa",
+    "en": "Sửa"
+  },
+  {
+    "vi": "Sửa ${s.name}",
+    "en": "Sửa ${s.name}"
+  },
+  {
+    "vi": "Sửa / Dời",
+    "en": "Sửa / Dời"
+  },
+  {
+    "vi": "Sửa / dời lịch hẹn",
+    "en": "Sửa / dời appointments"
+  },
+  {
+    "vi": "Sửa danh mục",
+    "en": "Sửa category"
+  },
+  {
+    "vi": "Sửa dịch vụ",
+    "en": "Sửa services"
+  },
+  {
+    "vi": "Sửa thông tin thợ",
+    "en": "Edit Details thợ"
+  },
+  {
+    "vi": "Sửa voucher ${t.code}",
+    "en": "Sửa voucher ${t.code}"
+  },
+  {
+    "vi": "TB / lần",
+    "en": "TB / lần"
+  },
+  {
+    "vi": "Thay đổi được lưu ngay và áp dụng cho các hóa đơn tiếp theo.",
+    "en": "Thay đổi được lưu ngay và apply cho các invoices tiếp theo."
+  },
+  {
+    "vi": "Theo % của từng thợ",
+    "en": "Theo % của từng thợ"
+  },
+  {
+    "vi": "Thiết lập tiệm, máy in, bảo mật và dữ liệu",
+    "en": "Thiết lập tiệm, máy in, bảo mật và dữ liệu"
+  },
+  {
+    "vi": "Tháng Bảy",
+    "en": "Month Bảy"
+  },
+  {
+    "vi": "Tháng Chín",
+    "en": "Month Chín"
+  },
+  {
+    "vi": "Tháng Mười",
+    "en": "Month Mười"
+  },
+  {
+    "vi": "Tháng Mười Hai",
+    "en": "Month Mười Hai"
+  },
+  {
+    "vi": "Tháng Mười Một",
+    "en": "Month Mười Một"
+  },
+  {
+    "vi": "Tháng Một",
+    "en": "Month Một"
+  },
+  {
+    "vi": "Tháng Năm",
+    "en": "Month Năm"
+  },
+  {
+    "vi": "Tháng Sáu",
+    "en": "Month Sáu"
+  },
+  {
+    "vi": "Tháng Tám",
+    "en": "Month Tám"
+  },
+  {
+    "vi": "Tháng Tư",
+    "en": "Month Tư"
+  },
+  {
+    "vi": "Thêm khách vào hàng chờ",
+    "en": "Add-ons clients vào hàng chờ"
+  },
+  {
+    "vi": "Thêm lịch",
+    "en": "Add-ons lịch"
+  },
+  {
+    "vi": "Thêm thanh toán",
+    "en": "Add-ons thanh toán"
+  },
+  {
+    "vi": "Thêm thợ",
+    "en": "Add-ons thợ"
+  },
+  {
+    "vi": "Thêm vào hàng chờ",
+    "en": "Add-ons vào hàng chờ"
+  },
+  {
+    "vi": "Thêm vào hóa đơn",
+    "en": "Add-ons vào invoices"
+  },
+  {
+    "vi": "Thêm, sửa, xóa dịch vụ — thay đổi hiện ngay ở màn hình tạo hóa đơn",
+    "en": "Add-ons, sửa, xóa services — thay đổi hiện ngay ở màn hình tạo invoices"
+  },
+  {
+    "vi": "Thêm, sửa, xóa thợ và thiết lập hoa hồng",
+    "en": "Add-ons, sửa, xóa thợ và thiết lập hoa hồng"
+  },
+  {
+    "vi": "Thích Cindy làm",
+    "en": "Thích Cindy làm"
+  },
+  {
+    "vi": "Thích màu nude, không thích móng quá dài",
+    "en": "Thích màu nude, không thích móng quá dài"
+  },
+  {
+    "vi": "Thời gian",
+    "en": "Thời gian"
+  },
+  {
+    "vi": "Thời gian:",
+    "en": "Thời gian:"
+  },
+  {
+    "vi": "Thợ có doanh thu",
+    "en": "Thợ có doanh thu"
+  },
+  {
+    "vi": "Thợ khách muốn",
+    "en": "Thợ clients muốn"
+  },
+  {
+    "vi": "Thợ làm dịch vụ này",
+    "en": "Thợ làm services này"
+  },
+  {
+    "vi": "Thợ này đã có lịch",
+    "en": "Thợ này đã có lịch"
+  },
+  {
+    "vi": "Thợ quen",
+    "en": "Thợ quen"
+  },
+  {
+    "vi": "Thợ quen:",
+    "en": "Thợ quen:"
+  },
+  {
+    "vi": "Thứ 2",
+    "en": "Thứ 2"
+  },
+  {
+    "vi": "Thứ 3",
+    "en": "Thứ 3"
+  },
+  {
+    "vi": "Thứ 4",
+    "en": "Thứ 4"
+  },
+  {
+    "vi": "Thứ 5",
+    "en": "Thứ 5"
+  },
+  {
+    "vi": "Thứ 6",
+    "en": "Thứ 6"
+  },
+  {
+    "vi": "Thứ 7",
+    "en": "Thứ 7"
+  },
+  {
+    "vi": "Thử mở rộng khoảng ngày hoặc đổi từ khóa.",
+    "en": "Thử mở rộng khoảng days hoặc đổi từ lock."
+  },
+  {
+    "vi": "Thử tên hoặc số điện thoại khác.",
+    "en": "Thử tên hoặc phone number khác."
+  },
+  {
+    "vi": "Thử tải lại trước. Nếu vẫn lỗi, đặt lại dữ liệu mẫu (dữ liệu demo đã nhập sẽ mất).",
+    "en": "Thử tải lại trước. Nếu vẫn lỗi, reset dữ liệu mẫu (dữ liệu demo đã nhập sẽ mất)."
+  },
+  {
+    "vi": "Thử từ khóa khác hoặc dùng “Mục tự nhập”.",
+    "en": "Thử từ lock khác hoặc dùng “Mục tự nhập”."
+  },
+  {
+    "vi": "Tip theo thợ (Click xem chi tiết)",
+    "en": "Tip theo thợ (Click xem chi tiết)"
+  },
+  {
+    "vi": "Tiền giảm do voucher",
+    "en": "Tiền giảm do voucher"
+  },
+  {
+    "vi": "Tiền giảm theo voucher",
+    "en": "Tiền giảm theo voucher"
+  },
+  {
+    "vi": "Tiền hoa hồng thợ",
+    "en": "Commission Earned thợ"
+  },
+  {
+    "vi": "Tiền mặt cần có trong két (chưa tính tiền đầu ca):",
+    "en": "Cash cần có trong két (chưa tính tiền đầu ca):"
+  },
+  {
+    "vi": "Tiền thu theo hình thức",
+    "en": "Tiền thu theo hình thức"
+  },
+  {
+    "vi": "Toàn bộ dịch vụ trên hóa đơn sẽ bị xóa và không thể khôi phục.",
+    "en": "Toàn bộ services trên invoices sẽ bị xóa và không thể restore."
+  },
+  {
+    "vi": "Tra cứu khách theo tên / số điện thoại…",
+    "en": "Tra cứu clients theo tên / phone number…"
+  },
+  {
+    "vi": "Trong kỳ lọc",
+    "en": "Trong kỳ lọc"
+  },
+  {
+    "vi": "Trên giấy A4, hóa đơn được căn giữa trang",
+    "en": "Trên giấy A4, invoices được căn giữa trang"
+  },
+  {
+    "vi": "Trước",
+    "en": "Trước"
+  },
+  {
+    "vi": "Trần",
+    "en": "Trần"
+  },
+  {
+    "vi": "Trần Quang Minh",
+    "en": "Trần Quang Minh"
+  },
+  {
+    "vi": "Trở về Màn hình thu ngân POS (Yêu cầu mã PIN)",
+    "en": "Trở về Màn hình thu ngân POS (Yêu cầu mã PIN)"
+  },
+  {
+    "vi": "Tách biệt Màn hình chủ (Thu ngân/POS) và Màn hình khách hàng (Nhập tên, SĐT, xem banner & chọn dịch vụ)",
+    "en": "Separate POS Register and Customer Self-Check-in Screen (Nhập tên, SĐT, xem banner & chọn services)"
+  },
+  {
+    "vi": "Tên A → Z",
+    "en": "Tên A → Z"
+  },
+  {
+    "vi": "Tên danh mục",
+    "en": "Tên category"
+  },
+  {
+    "vi": "Tên hiển thị",
+    "en": "Tên hiển thị"
+  },
+  {
+    "vi": "Tên hiển thị *",
+    "en": "Tên hiển thị *"
+  },
+  {
+    "vi": "Tên hoặc số điện thoại…",
+    "en": "Tên hoặc phone number…"
+  },
+  {
+    "vi": "Tên khách",
+    "en": "Tên clients"
+  },
+  {
+    "vi": "Tên khách *",
+    "en": "Tên clients *"
+  },
+  {
+    "vi": "Tên mục",
+    "en": "Tên mục"
+  },
+  {
+    "vi": "Tên ngắn hiện trên màn hình quầy",
+    "en": "Tên ngắn hiện trên màn hình quầy"
+  },
+  {
+    "vi": "Tìm dịch vụ…",
+    "en": "Tìm services…"
+  },
+  {
+    "vi": "Tìm mã voucher…",
+    "en": "Tìm mã voucher…"
+  },
+  {
+    "vi": "Tính trên số tiền sau giảm giá, chưa gồm tip. Ví dụ hóa đơn $60 →",
+    "en": "Tính trên số tiền sau discount, chưa gồm tip. Ví dụ invoices $60 →"
+  },
+  {
+    "vi": "Tùy chỉnh chiều cao, tải ảnh banner từ máy tính và quảng cáo Voucher & Sản phẩm tiệm",
+    "en": "Tùy chỉnh chiều cao, tải ảnh banner từ máy tính và quảng cáo Promos & Products tiệm"
+  },
+  {
+    "vi": "Tăng",
+    "en": "Tăng"
+  },
+  {
+    "vi": "Tạm tính hiện tại: ${W(r)}",
+    "en": "Subtotal hiện tại: ${W(r)}"
+  },
+  {
+    "vi": "Tạo danh mục đầu tiên để bắt đầu.",
+    "en": "Tạo category đầu tiên để bắt đầu."
+  },
+  {
+    "vi": "Tạo hóa đơn",
+    "en": "Tạo invoices"
+  },
+  {
+    "vi": "Tạo mã giảm giá và theo dõi lượt sử dụng",
+    "en": "Tạo mã discount và theo dõi turns sử dụng"
+  },
+  {
+    "vi": "Tạo ngẫu nhiên",
+    "en": "Tạo ngẫu nhiên"
+  },
+  {
+    "vi": "Tạo voucher mới",
+    "en": "Create Promo Code mới"
+  },
+  {
+    "vi": "Tải bản sao lưu dự phòng",
+    "en": "Tải bản backup dự phòng"
+  },
+  {
+    "vi": "Tải file JSON sao lưu dự phòng toàn bộ dữ liệu máy tính trước khi xóa",
+    "en": "Tải file JSON backup dự phòng toàn bộ dữ liệu máy tính trước khi xóa"
+  },
+  {
+    "vi": "Tải lúc:",
+    "en": "Tải lúc:"
+  },
+  {
+    "vi": "Tải lại",
+    "en": "Tải lại"
+  },
+  {
+    "vi": "Tất cả",
+    "en": "Tất cả"
+  },
+  {
+    "vi": "Tất cả (${e.length})",
+    "en": "Tất cả (${e.length})"
+  },
+  {
+    "vi": "Tặng khách thân thiết",
+    "en": "Tặng clients thân thiết"
+  },
+  {
+    "vi": "Tối thiểu",
+    "en": "Tối thiểu"
+  },
+  {
+    "vi": "Tối đa % hóa đơn",
+    "en": "Tối đa % invoices"
+  },
+  {
+    "vi": "TỔNG HỢP THU NHẬP:",
+    "en": "TỔNG HỢP THU NHẬP:"
+  },
+  {
+    "vi": "TỔNG THU NHẬP CHI TRẢ",
+    "en": "TỔNG THU NHẬP CHI TRẢ"
+  },
+  {
+    "vi": "Tổng cần thu",
+    "en": "Total cần thu"
+  },
+  {
+    "vi": "Tổng giảm",
+    "en": "Total giảm"
+  },
+  {
+    "vi": "Tổng thu nhập ($)",
+    "en": "Total thu nhập ($)"
+  },
+  {
+    "vi": "Tổng tiền",
+    "en": "Total tiền"
+  },
+  {
+    "vi": "Tổng tiền đã giảm",
+    "en": "Total tiền đã giảm"
+  },
+  {
+    "vi": "Từ",
+    "en": "Từ"
+  },
+  {
+    "vi": "Từ ngày",
+    "en": "Từ days"
+  },
+  {
+    "vi": "Tự check-in từ màn hình khách",
+    "en": "Tự check-in từ màn hình clients"
+  },
+  {
+    "vi": "Tự động dọn dẹp: Luôn chỉ lưu dữ liệu trong 30 ngày gần nhất mỗi khi mở ứng dụng",
+    "en": "Auto clean up: Luôn chỉ lưu dữ liệu trong 30 Days gần nhất mỗi khi mở ứng dụng"
+  },
+  {
+    "vi": "Tự động in sau khi thanh toán",
+    "en": "Auto in sau khi thanh toán"
+  },
+  {
+    "vi": "Tỷ lệ hủy",
+    "en": "Tỷ lệ hủy"
+  },
+  {
+    "vi": "VD: Hẹn gặp lại · Wi-Fi: rose2026",
+    "en": "VD: Hẹn gặp lại · Wi-Fi: rose2026"
+  },
+  {
+    "vi": "VD: Nguyễn Cao Kỳ Duyên",
+    "en": "VD: Nguyễn Cao Kỳ Duyên"
+  },
+  {
+    "vi": "VD: Nguyễn Thị Mai",
+    "en": "VD: Nguyễn Thị Mai"
+  },
+  {
+    "vi": "VD: Sửa móng gãy",
+    "en": "VD: Sửa móng gãy"
+  },
+  {
+    "vi": "VD: Thưởng sinh nhật / sửa nhầm",
+    "en": "VD: Birthday Bonus / sửa nhầm"
+  },
+  {
+    "vi": "VD: Tặng khách sinh nhật tháng 7",
+    "en": "VD: Tặng clients birthday months 7"
+  },
+  {
+    "vi": "VD: muốn gel màu hồng, đi 2 người…",
+    "en": "VD: muốn gel màu hồng, đi 2 người…"
+  },
+  {
+    "vi": "VD: đi cùng con nhỏ",
+    "en": "VD: đi cùng con nhỏ"
+  },
+  {
+    "vi": "Voucher đã dùng",
+    "en": "Promos đã dùng"
+  },
+  {
+    "vi": "Voucher đã hết hạn",
+    "en": "Promos đã expired"
+  },
+  {
+    "vi": "Voucher đã hết lượt dùng",
+    "en": "Promos đã hết turns dùng"
+  },
+  {
+    "vi": "Voucher đã được gỡ: ${e.error}",
+    "en": "Promos đã được gỡ: ${e.error}"
+  },
+  {
+    "vi": "Vui lòng chọn file hình ảnh (PNG, JPG, WEBP)!",
+    "en": "Vui lòng chọn file hình ảnh (PNG, JPG, WEBP)!"
+  },
+  {
+    "vi": "Vui lòng nhập số điện thoại để check-in!",
+    "en": "Vui lòng nhập phone number để check-in!"
+  },
+  {
+    "vi": "Ví dụ đổi",
+    "en": "Ví dụ đổi"
+  },
+  {
+    "vi": "Võ",
+    "en": "Võ"
+  },
+  {
+    "vi": "Về POS",
+    "en": "Về POS"
+  },
+  {
+    "vi": "Về màn hình chọn thợ",
+    "en": "Về màn hình chọn thợ"
+  },
+  {
+    "vi": "Vị trí này không trống",
+    "en": "Vị trí này không trống"
+  },
+  {
+    "vi": "Vị trí sẽ chuyển về trạng thái trống, sẵn sàng đón khách.",
+    "en": "Vị trí sẽ chuyển về status trống, ready đón clients."
+  },
+  {
+    "vi": "Vừa",
+    "en": "Vừa"
+  },
+  {
+    "vi": "Vừa xong",
+    "en": "Vừa xong"
+  },
+  {
+    "vi": "Xem báo cáo chi tiết",
+    "en": "Xem báo cáo chi tiết"
+  },
+  {
+    "vi": "Xem lại, tìm kiếm và in lại hóa đơn cũ",
+    "en": "Xem lại, tìm kiếm và in lại invoices cũ"
+  },
+  {
+    "vi": "Xem thợ:",
+    "en": "Xem thợ:"
+  },
+  {
+    "vi": "Xuống",
+    "en": "Xuống"
+  },
+  {
+    "vi": "XÁC NHẬN DỊCH VỤ & CHECK-IN NGAY",
+    "en": "XÁC NHẬN DỊCH VỤ & CHECK-IN NGAY"
+  },
+  {
+    "vi": "XÁC NHẬN DỊCH VỤ ($",
+    "en": "XÁC NHẬN DỊCH VỤ ($"
+  },
+  {
+    "vi": "Xác nhận Xóa",
+    "en": "Confirm Xóa"
+  },
+  {
+    "vi": "Xác thực Quản lý / Thu ngân",
+    "en": "Xác thực Quản lý / Cashier"
+  },
+  {
+    "vi": "Xác thực mã PIN Chủ tiệm / Quản lý:",
+    "en": "Xác thực mã PIN Chủ tiệm / Quản lý:"
+  },
+  {
+    "vi": "Xóa ${e.name} khỏi hàng chờ?",
+    "en": "Xóa ${e.name} khỏi hàng chờ?"
+  },
+  {
+    "vi": "Xóa ${s.name}?",
+    "en": "Xóa ${s.name}?"
+  },
+  {
+    "vi": "Xóa dòng",
+    "en": "Xóa dòng"
+  },
+  {
+    "vi": "Xóa dữ liệu",
+    "en": "Xóa dữ liệu"
+  },
+  {
+    "vi": "Xóa dữ liệu cũ, chỉ giữ lại 30 ngày gần nhất hoặc xóa theo ý muốn của chủ tiệm",
+    "en": "Purge Old Data, chỉ giữ lại 30 Days gần nhất hoặc xóa theo ý muốn của chủ tiệm"
+  },
+  {
+    "vi": "Xóa dữ liệu trong khoảng thời gian đang lọc (",
+    "en": "Xóa dữ liệu trong khoảng time đang lọc ("
+  },
+  {
+    "vi": "Xóa khách",
+    "en": "Xóa clients"
+  },
+  {
+    "vi": "Xóa khách “${e.name}”?",
+    "en": "Xóa clients “${e.name}”?"
+  },
+  {
+    "vi": "Xóa khỏi hàng chờ",
+    "en": "Xóa khỏi hàng chờ"
+  },
+  {
+    "vi": "Xóa lịch hẹn này?",
+    "en": "Xóa appointments này?"
+  },
+  {
+    "vi": "Xóa sạch tất cả hóa đơn và lịch hẹn để bắt đầu lại từ đầu. Vẫn giữ nguyên 100% danh mục Dịch vụ, Thợ và Khách hàng.",
+    "en": "Xóa sạch all invoices và appointments để bắt đầu lại từ đầu. Vẫn giữ nguyên 100% category Services, Thợ và Client Insights."
+  },
+  {
+    "vi": "Xóa toàn bộ doanh thu (Làm mới số liệu tiệm)",
+    "en": "Xóa toàn bộ doanh thu (Làm mới số liệu tiệm)"
+  },
+  {
+    "vi": "Xóa tất cả",
+    "en": "Xóa all"
+  },
+  {
+    "vi": "Xóa tất cả các hóa đơn, lịch hẹn cũ hơn 30 ngày trước (trước ngày",
+    "en": "Xóa all các invoices, appointments cũ hơn 30 Days trước (trước days"
+  },
+  {
+    "vi": "Xóa ảnh này",
+    "en": "Xóa ảnh này"
+  },
+  {
+    "vi": "Xếp & mở hóa đơn",
+    "en": "Xếp & mở invoices"
+  },
+  {
+    "vi": "Xếp ghế",
+    "en": "Xếp ghế"
+  },
+  {
+    "vi": "Xếp khách vào ${m.name}",
+    "en": "Xếp clients vào ${m.name}"
+  },
+  {
+    "vi": "Xếp vào bàn / ghế trên sơ đồ",
+    "en": "Xếp vào bàn / ghế trên sơ đồ"
+  },
+  {
+    "vi": "báo cáo",
+    "en": "báo cáo"
+  },
+  {
+    "vi": "chi tiêu =",
+    "en": "chi tiêu ="
+  },
+  {
+    "vi": "chiều",
+    "en": "chiều"
+  },
+  {
+    "vi": "cho thợ",
+    "en": "cho thợ"
+  },
+  {
+    "vi": "chờ",
+    "en": "chờ"
+  },
+  {
+    "vi": "cần dọn",
+    "en": "cần dọn"
+  },
+  {
+    "vi": "danh sách thợ",
+    "en": "danh sách thợ"
+  },
+  {
+    "vi": "dưới 1 giây",
+    "en": "dưới 1 secs"
+  },
+  {
+    "vi": "dưới 1 phút",
+    "en": "dưới 1 min"
+  },
+  {
+    "vi": "dưới {{count}} giây",
+    "en": "dưới {{count}} secs"
+  },
+  {
+    "vi": "dưới {{count}} phút",
+    "en": "dưới {{count}} mins"
+  },
+  {
+    "vi": "giữ",
+    "en": "giữ"
+  },
+  {
+    "vi": "giữa trưa",
+    "en": "giữa trưa"
+  },
+  {
+    "vi": "gần 1 năm",
+    "en": "gần 1 year"
+  },
+  {
+    "vi": "gần {{count}} năm",
+    "en": "gần {{count}} năm"
+  },
+  {
+    "vi": "hóa đơn cũ hơn 30 ngày!",
+    "en": "invoices cũ hơn 30 Days!"
+  },
+  {
+    "vi": "hóa đơn trong khoảng đã chọn!",
+    "en": "invoices trong khoảng đã chọn!"
+  },
+  {
+    "vi": "hóa đơn đã dọn sạch)!",
+    "en": "invoices đã dọn sạch)!"
+  },
+  {
+    "vi": "hôm nay vào lúc",
+    "en": "today vào lúc"
+  },
+  {
+    "vi": "hôm qua vào lúc",
+    "en": "yesterday vào lúc"
+  },
+  {
+    "vi": "hơn 1 năm",
+    "en": "hơn 1 year"
+  },
+  {
+    "vi": "hơn {{count}} năm",
+    "en": "hơn {{count}} năm"
+  },
+  {
+    "vi": "hủy",
+    "en": "hủy"
+  },
+  {
+    "vi": "khoảng 1 giờ",
+    "en": "khoảng 1 hr"
+  },
+  {
+    "vi": "khoảng 1 năm",
+    "en": "khoảng 1 year"
+  },
+  {
+    "vi": "khoảng 1 tháng",
+    "en": "khoảng 1 month"
+  },
+  {
+    "vi": "khoảng 1 tuần",
+    "en": "khoảng 1 week"
+  },
+  {
+    "vi": "khoảng {{count}} giờ",
+    "en": "khoảng {{count}} giờ"
+  },
+  {
+    "vi": "khoảng {{count}} năm",
+    "en": "khoảng {{count}} năm"
+  },
+  {
+    "vi": "khoảng {{count}} tháng",
+    "en": "khoảng {{count}} months"
+  },
+  {
+    "vi": "khoảng {{count}} tuần",
+    "en": "khoảng {{count}} weeks"
+  },
+  {
+    "vi": "khách hẹn",
+    "en": "clients hẹn"
+  },
+  {
+    "vi": "khách · dữ liệu mẫu tạo ngày",
+    "en": "clients · dữ liệu mẫu tạo days"
+  },
+  {
+    "vi": "khách đã lưu",
+    "en": "clients đã lưu"
+  },
+  {
+    "vi": "khỏi hàng chờ",
+    "en": "khỏi hàng chờ"
+  },
+  {
+    "vi": "lần ·",
+    "en": "lần ·"
+  },
+  {
+    "vi": "lần · gần đây",
+    "en": "lần · gần đây"
+  },
+  {
+    "vi": "lỗi không xác định",
+    "en": "lỗi không xác định"
+  },
+  {
+    "vi": "mã) và Sản phẩm tiệm (",
+    "en": "mã) và Products tiệm ("
+  },
+  {
+    "vi": "mẫu hóa đơn",
+    "en": "mẫu invoices"
+  },
+  {
+    "vi": "ngày mai vào lúc",
+    "en": "tomorrow vào lúc"
+  },
+  {
+    "vi": "người",
+    "en": "người"
+  },
+  {
+    "vi": "nửa phút",
+    "en": "nửa mins"
+  },
+  {
+    "vi": "nửa đêm",
+    "en": "nửa đêm"
+  },
+  {
+    "vi": "nữa",
+    "en": "nữa"
+  },
+  {
+    "vi": "phục vụ",
+    "en": "phục vụ"
+  },
+  {
+    "vi": "quý I",
+    "en": "quý I"
+  },
+  {
+    "vi": "quý II",
+    "en": "quý II"
+  },
+  {
+    "vi": "quý III",
+    "en": "quý III"
+  },
+  {
+    "vi": "quý IV",
+    "en": "quý IV"
+  },
+  {
+    "vi": "sau Công Nguyên",
+    "en": "sau Công Nguyên"
+  },
+  {
+    "vi": "so với kỳ trước",
+    "en": "so với kỳ trước"
+  },
+  {
+    "vi": "sáng",
+    "en": "sáng"
+  },
+  {
+    "vi": "sản phẩm). Bấm vào banner để copy nhanh mã voucher!",
+    "en": "sản phẩm). Bấm vào banner để copy nhanh mã voucher!"
+  },
+  {
+    "vi": "thợ đang làm",
+    "en": "thợ busy"
+  },
+  {
+    "vi": "thứ",
+    "en": "thứ"
+  },
+  {
+    "vi": "thứ 2",
+    "en": "thứ 2"
+  },
+  {
+    "vi": "thứ 3",
+    "en": "thứ 3"
+  },
+  {
+    "vi": "thứ 4",
+    "en": "thứ 4"
+  },
+  {
+    "vi": "thứ 5",
+    "en": "thứ 5"
+  },
+  {
+    "vi": "thứ 6",
+    "en": "thứ 6"
+  },
+  {
+    "vi": "thứ 7",
+    "en": "thứ 7"
+  },
+  {
+    "vi": "thứ nhất",
+    "en": "thứ nhất"
+  },
+  {
+    "vi": "trưa",
+    "en": "trưa"
+  },
+  {
+    "vi": "trước",
+    "en": "trước"
+  },
+  {
+    "vi": "trước CN",
+    "en": "trước CN"
+  },
+  {
+    "vi": "trước Công Nguyên",
+    "en": "trước Công Nguyên"
+  },
+  {
+    "vi": "trống",
+    "en": "trống"
+  },
+  {
+    "vi": "tuần trước vào lúc",
+    "en": "last week vào lúc"
+  },
+  {
+    "vi": "tối",
+    "en": "tối"
+  },
+  {
+    "vi": "tới vào lúc",
+    "en": "tới vào lúc"
+  },
+  {
+    "vi": "vào ban đêm",
+    "en": "vào ban đêm"
+  },
+  {
+    "vi": "vào buổi chiều",
+    "en": "vào buổi chiều"
+  },
+  {
+    "vi": "vào buổi sáng",
+    "en": "vào buổi sáng"
+  },
+  {
+    "vi": "vào buổi tối",
+    "en": "vào buổi tối"
+  },
+  {
+    "vi": "với",
+    "en": "với"
+  },
+  {
+    "vi": "vừa check-in qua iPad! (Đã thêm vào danh sách chờ)",
+    "en": "vừa check-in qua iPad! (Đã thêm vào danh sách chờ)"
+  },
+  {
+    "vi": "{{count}} giờ",
+    "en": "{{count}} giờ"
+  },
+  {
+    "vi": "{{count}} năm",
+    "en": "{{count}} năm"
+  },
+  {
+    "vi": "}),quarter:Do({matchPatterns:{narrow:/^([1234]|i{1,3}v?)/i,abbreviated:/^q([1234]|i{1,3}v?)/i,wide:/^quý ([1234]|i{1,3}v?)/i},defaultMatchWidth:",
+    "en": "}),quarter:Do({matchPatterns:{narrow:/^([1234]|i{1,3}v?)/i,abbreviated:/^q([1234]|i{1,3}v?)/i,wide:/^quý ([1234]|i{1,3}v?)/i},defaultMatchWidth:"
+  },
+  {
+    "vi": "· ${e.partySize} người",
+    "en": "· ${e.partySize} người"
+  },
+  {
+    "vi": "· Khách tự check-in trên iPad sẽ tự động hiện tại đây để điều phối mở hóa đơn.",
+    "en": "· Clients tự check-in trên iPad sẽ tự động hiện tại đây để điều phối mở invoices."
+  },
+  {
+    "vi": "· gần nhất ${_l(P.last)}",
+    "en": "· gần nhất ${_l(P.last)}"
+  },
+  {
+    "vi": "· gợi ý:",
+    "en": "· gợi ý:"
+  },
+  {
+    "vi": "Áp dụng cho mọi hóa đơn",
+    "en": "Apply cho mọi invoices"
+  },
+  {
+    "vi": "Áp dụng cho đơn từ $",
+    "en": "Apply cho đơn từ $"
+  },
+  {
+    "vi": "Ý Lan",
+    "en": "Ý Lan"
+  },
+  {
+    "vi": "Đang bật",
+    "en": "Đang bật"
+  },
+  {
+    "vi": "Đang chờ",
+    "en": "Đang chờ"
+  },
+  {
+    "vi": "Đang có khách nên chưa xóa được",
+    "en": "Đang có clients nên chưa xóa được"
+  },
+  {
+    "vi": "Đang làm việc",
+    "en": "Busy việc"
+  },
+  {
+    "vi": "Đang tắt",
+    "en": "Đang tắt"
+  },
+  {
+    "vi": "Đi 2 người",
+    "en": "Đi 2 người"
+  },
+  {
+    "vi": "Điều chỉnh",
+    "en": "Điều chỉnh"
+  },
+  {
+    "vi": "Điều hướng chính",
+    "en": "Điều hướng chính"
+  },
+  {
+    "vi": "Điểm",
+    "en": "Điểm"
+  },
+  {
+    "vi": "Điểm cao nhất",
+    "en": "Điểm cao nhất"
+  },
+  {
+    "vi": "Điểm cho mỗi đô",
+    "en": "Điểm cho mỗi đô"
+  },
+  {
+    "vi": "Điểm còn lại",
+    "en": "Điểm còn lại"
+  },
+  {
+    "vi": "Điểm cộng",
+    "en": "Điểm cộng"
+  },
+  {
+    "vi": "Điểm cộng theo ngày",
+    "en": "Điểm cộng theo days"
+  },
+  {
+    "vi": "Điểm cộng thêm",
+    "en": "Điểm cộng thêm"
+  },
+  {
+    "vi": "Điểm hiện có",
+    "en": "Điểm hiện có"
+  },
+  {
+    "vi": "Điểm theo khách (top 10)",
+    "en": "Điểm theo clients (top 10)"
+  },
+  {
+    "vi": "Điểm đang lưu hành",
+    "en": "Điểm đang lưu hành"
+  },
+  {
+    "vi": "Điểm đã cộng",
+    "en": "Điểm đã cộng"
+  },
+  {
+    "vi": "Điểm đã đổi",
+    "en": "Điểm đã đổi"
+  },
+  {
+    "vi": "Đã bỏ dùng điểm vì hóa đơn thay đổi",
+    "en": "Đã bỏ dùng points vì invoices thay đổi"
+  },
+  {
+    "vi": "Đã chuyển sang ${e.name}",
+    "en": "Đã chuyển sang ${e.name}"
+  },
+  {
+    "vi": "Đã chuyển sang “${Pd[t].label}”",
+    "en": "Đã chuyển sang “${Pd[t].label}”"
+  },
+  {
+    "vi": "Đã copy mã:",
+    "en": "Đã copy mã:"
+  },
+  {
+    "vi": "Đã cập nhật thợ",
+    "en": "Updated successfully thợ"
+  },
+  {
+    "vi": "Đã cộng · 30 ngày",
+    "en": "Đã cộng · 30 Days"
+  },
+  {
+    "vi": "Đã dùng",
+    "en": "Đã dùng"
+  },
+  {
+    "vi": "Đã dùng hết",
+    "en": "Đã dùng hết"
+  },
+  {
+    "vi": "Đã dọn xong",
+    "en": "Đã cleaned"
+  },
+  {
+    "vi": "Đã gồm tip",
+    "en": "Đã gồm tip"
+  },
+  {
+    "vi": "Đã khôi phục dữ liệu",
+    "en": "Đã restore dữ liệu"
+  },
+  {
+    "vi": "Đã làm mới dữ liệu doanh thu (",
+    "en": "Đã làm mới dữ liệu doanh thu ("
+  },
+  {
+    "vi": "Đã mở cửa sổ Màn hình khách hàng!",
+    "en": "Đã mở cửa sổ Customer Kiosk hàng!"
+  },
+  {
+    "vi": "Đã mở hóa đơn và xếp khách",
+    "en": "Đã mở invoices và xếp clients"
+  },
+  {
+    "vi": "Đã nghỉ việc",
+    "en": "Đã off duty việc"
+  },
+  {
+    "vi": "Đã nạp ảnh banner chuẩn của tiệm!",
+    "en": "Đã nạp ảnh banner chuẩn của tiệm!"
+  },
+  {
+    "vi": "Đã sao chép đường dẫn:",
+    "en": "Copied to clipboard đường dẫn:"
+  },
+  {
+    "vi": "Đã thêm ${r} ${t} ở góc trên trái — kéo đến vị trí mong muốn",
+    "en": "Đã thêm ${r} ${t} ở góc trên trái — kéo đến vị trí mong muốn"
+  },
+  {
+    "vi": "Đã thêm danh mục",
+    "en": "Đã thêm category"
+  },
+  {
+    "vi": "Đã thêm dịch vụ",
+    "en": "Đã thêm services"
+  },
+  {
+    "vi": "Đã thêm khách hàng mới",
+    "en": "Đã thêm client mới"
+  },
+  {
+    "vi": "Đã thêm thợ ${r.name}",
+    "en": "Đã thêm thợ ${r.name}"
+  },
+  {
+    "vi": "Đã thêm vào hàng chờ",
+    "en": "Đã thêm vào hàng chờ"
+  },
+  {
+    "vi": "Đã thêm ảnh banner từ máy tính!",
+    "en": "Đã thêm ảnh banner từ máy tính!"
+  },
+  {
+    "vi": "Đã tạo hóa đơn cho lịch hẹn này",
+    "en": "Đã tạo invoices cho appointments này"
+  },
+  {
+    "vi": "Đã tạo voucher ${e}",
+    "en": "Đã tạo voucher ${e}"
+  },
+  {
+    "vi": "Đã tải file sao lưu",
+    "en": "Đã tải file backup"
+  },
+  {
+    "vi": "Đã tải file sao lưu dự phòng về máy!",
+    "en": "Đã tải file backup dự phòng về máy!"
+  },
+  {
+    "vi": "Đã xuất file Excel (.csv) cho thợ",
+    "en": "Đã xuất file Excel (.csv) cho thợ"
+  },
+  {
+    "vi": "Đã xuất file Excel (.csv) — mở bằng Excel",
+    "en": "Đã xuất file Excel (.csv) — mở bằng Excel"
+  },
+  {
+    "vi": "Đã xóa khách hàng",
+    "en": "Deleted successfully clients hàng"
+  },
+  {
+    "vi": "Đã xóa thợ",
+    "en": "Deleted successfully thợ"
+  },
+  {
+    "vi": "Đã xóa ảnh banner!",
+    "en": "Deleted successfully ảnh banner!"
+  },
+  {
+    "vi": "Đã xếp ${T.name} vào ${m.name}",
+    "en": "Đã xếp ${T.name} vào ${m.name}"
+  },
+  {
+    "vi": "Đã điều chỉnh ${e>0?",
+    "en": "Đã điều chỉnh ${e>0?"
+  },
+  {
+    "vi": "Đã đặt lại dữ liệu mẫu",
+    "en": "Đã reset dữ liệu mẫu"
+  },
+  {
+    "vi": "Đã đặt lịch hẹn",
+    "en": "Đã đặt appointments"
+  },
+  {
+    "vi": "Đã đổi mã PIN",
+    "en": "Đã đổi mã PIN"
+  },
+  {
+    "vi": "Đã đổi · 30 ngày",
+    "en": "Đã đổi · 30 Days"
+  },
+  {
+    "vi": "Đúng lượt kế tiếp",
+    "en": "Đúng turns kế tiếp"
+  },
+  {
+    "vi": "Đường dẫn trực tiếp cho iPad (Trình duyệt Safari/Chrome):",
+    "en": "Đường dẫn trực tiếp cho iPad (Trình duyệt Safari/Chrome):"
+  },
+  {
+    "vi": "Đặng",
+    "en": "Đặng"
+  },
+  {
+    "vi": "Đặt 0 nếu dịch vụ không tính thuế",
+    "en": "Đặt 0 nếu services không tính tax"
+  },
+  {
+    "vi": "Đặt lại",
+    "en": "Đặt lại"
+  },
+  {
+    "vi": "Đặt lịch",
+    "en": "Đặt lịch"
+  },
+  {
+    "vi": "Đặt lịch hẹn mới",
+    "en": "Đặt appointments mới"
+  },
+  {
+    "vi": "Đặt trước",
+    "en": "Đặt trước"
+  },
+  {
+    "vi": "Đến ngày",
+    "en": "Đến days"
+  },
+  {
+    "vi": "Đến trễ 10 phút",
+    "en": "Đến trễ 10 mins"
+  },
+  {
+    "vi": "Để trống = không hết hạn",
+    "en": "Để trống = không expired"
+  },
+  {
+    "vi": "Để tặng voucher sinh nhật",
+    "en": "Để tặng voucher birthday"
+  },
+  {
+    "vi": "Đối chiếu tiền trong két với số liệu bên dưới",
+    "en": "Đối chiếu tiền trong két với số liệu bên dưới"
+  },
+  {
+    "vi": "Đổi",
+    "en": "Đổi"
+  },
+  {
+    "vi": "Đổi ${e.pointsUsed} điểm",
+    "en": "Đổi ${e.pointsUsed} points"
+  },
+  {
+    "vi": "Đổi ${g.pointsUsed} điểm",
+    "en": "Đổi ${g.pointsUsed} points"
+  },
+  {
+    "vi": "Đổi khách",
+    "en": "Đổi clients"
+  },
+  {
+    "vi": "Đổi mã PIN (4 số)",
+    "en": "Đổi mã PIN (4 số)"
+  },
+  {
+    "vi": "Đổi tối thiểu (điểm)",
+    "en": "Đổi minimum (points)"
+  },
+  {
+    "vi": "Đủ",
+    "en": "Đủ"
+  },
+  {
+    "vi": "điểm sau khi thanh toán",
+    "en": "points sau khi thanh toán"
+  },
+  {
+    "vi": "điểm · số dư",
+    "en": "points · số dư"
+  },
+  {
+    "vi": "đã đến",
+    "en": "đã đến"
+  },
+  {
+    "vi": "đêm",
+    "en": "đêm"
+  },
+  {
+    "vi": "đầu tiên",
+    "en": "đầu tiên"
+  },
+  {
+    "vi": "đặt trước",
+    "en": "đặt trước"
+  },
+  {
+    "vi": "đến",
+    "en": "đến"
+  },
+  {
+    "vi": "đến)",
+    "en": "đến)"
+  },
+  {
+    "vi": "để gán thợ & mở hóa đơn, hoặc chuyển sang Sơ đồ để xếp bàn / ghế.",
+    "en": "để gán thợ & mở invoices, hoặc chuyển sang Floor Plan để xếp bàn / ghế."
+  },
+  {
+    "vi": "để xếp",
+    "en": "để xếp"
+  },
+  {
+    "vi": "Ưu đãi giảm giá",
+    "en": "Ưu đãi discount"
+  },
+  {
+    "vi": "Ảnh banner đã tải từ máy tính (",
+    "en": "Ảnh banner đã tải từ máy tính ("
+  },
+  {
+    "vi": "ở góc và nhập mã PIN 1234.",
+    "en": "ở góc và nhập mã PIN 1234."
+  },
+  {
+    "vi": "— Báo cáo chi tiết làm việc của thợ:",
+    "en": "— Reports chi tiết làm việc của thợ:"
+  },
+  {
+    "vi": "— Không có —",
+    "en": "— Không có —"
+  },
+  {
+    "vi": "— bấm “Thêm thanh toán” để chia nhiều hình thức",
+    "en": "— bấm “Add-ons thanh toán” để chia nhiều hình thức"
+  },
+  {
+    "vi": "‹ Trước",
+    "en": "‹ Trước"
+  },
+  {
+    "vi": "≈ ${W(Math.floor(O/100)*5)} khi đổi",
+    "en": "≈ ${W(Math.floor(O/100)*5)} khi đổi"
+  },
+  {
+    "vi": "≈ ${W(b/s.redeemPoints*s.redeemValue)} đã giảm",
+    "en": "≈ ${W(b/s.redeemPoints*s.redeemValue)} đã giảm"
+  },
+  {
+    "vi": "≈ ${W(x/s.redeemPoints*s.redeemValue)} nếu đổi hết",
+    "en": "≈ ${W(x/s.redeemPoints*s.redeemValue)} nếu đổi hết"
+  },
+  {
+    "vi": "≈ ${h}’ nữa",
+    "en": "≈ ${h}’ nữa"
+  },
+  {
+    "vi": "✓ Hàng chờ trống",
+    "en": "✓ Hàng chờ trống"
+  },
+  {
+    "vi": "✓ Tăng chiều cao để banner rõ nét, không bị bóp nát",
+    "en": "✓ Tăng chiều cao để banner rõ nét, không bị bóp nát"
+  },
+  {
+    "vi": "✨ Ưu đãi giảm giá 10% khách mới!",
+    "en": "✨ Ưu đãi discount 10% new client!"
+  },
+  {
+    "vi": "✨ Ưu đãi tiệm",
+    "en": "✨ Ưu đãi tiệm"
+  },
+  {
+    "vi": "⭐ Yêu cầu thợ:",
+    "en": "⭐ Yêu cầu thợ:"
+  },
+  {
+    "vi": "🍵 Kính mời quý khách chọn ghế ngồi thư giãn và dùng nước uống miễn phí. Nhân viên sẽ phục vụ quý khách ngay ạ!",
+    "en": "🍵 Kính mời quý clients chọn ghế ngồi thư giãn và dùng nước uống miễn phí. Nhân viên sẽ phục vụ quý clients ngay ạ!"
+  },
+  {
+    "vi": "💅 Tiếp tục: Chọn Dịch vụ",
+    "en": "💅 Tiếp tục: Chọn Services"
+  },
+  {
+    "vi": "💡 Cơ chế hiển thị của Banner Header:",
+    "en": "💡 Cơ chế hiển thị của Banner Header:"
+  },
+  {
+    "vi": "💰 Tổng thu nhập ước tính của thợ",
+    "en": "💰 Total thu nhập ước tính của thợ"
+  },
+  {
+    "vi": "🔍 Tìm mã HĐ, tên khách, SĐT...",
+    "en": "🔍 Tìm mã HĐ, tên clients, SĐT..."
+  },
+  {
+    "vi": "🔍 Xem báo cáo chi tiết từng thợ:",
+    "en": "🔍 Xem báo cáo chi tiết từng thợ:"
+  },
+  {
+    "vi": "🖼️ Tràn đầy khung (Cover)",
+    "en": "🖼️ Tràn đầy khung (Cover)"
+  },
+  {
+    "vi": "🛡️ Vừa vặn (Giữ nguyên tỉ lệ, không bóp nát)",
+    "en": "🛡️ Vừa vặn (Keep tỉ lệ, không bóp nát)"
+  }
+]

@@ -1,0 +1,446 @@
+const fs = require('fs');
+const path = require('path');
+
+const badList = JSON.parse(fs.readFileSync('C:/Users/thaibao/.gemini/antigravity/scratch/nails-store-pos/scripts/bad_translations.json', 'utf8'));
+
+// Build dictionary for bad entries
+const fullMap = {
+  // Top header & banner
+  "SẢN PHẨM": "FEATURED PRODUCTS",
+  "Sản phẩm chăm sóc móng chính hãng tại tiệm": "Authentic salon nail care products",
+  "Products chăm sóc móng chính hãng tại tiệm": "Authentic salon nail care products",
+  "Rose Nail Spa (Thiết kế tiệm)": "Rose Nail Spa (Salon Design)",
+  "Rose Nail Spa (Nail Art tiệm)": "Rose Nail Spa (Nail Art Salon)",
+  "Quản lý banner, tùy chỉnh chiều cao & tải ảnh": "Manage banner, custom height & upload images",
+  "Quản lý Banner quảng cáo Header": "Manage Header Promo Banner",
+  "Tùy chỉnh chiều cao, tải ảnh banner từ máy tính và quảng cáo Voucher & Sản phẩm tiệm": "Customize height, upload banners from PC, and promote salon vouchers & products",
+  "Chiều cao Banner:": "Banner Height:",
+  "Kiểu khớp ảnh:": "Image Fit Mode:",
+  "Rõ từng chữ": "Crisp / Fit Content",
+  "Gọn gàng": "Neat / Cover Container",
+  "Lớn nổi bật": "Large Featured",
+  "Chuẩn thiết kế tiệm": "Salon Design Standard",
+  "Chuẩn tiệm": "Salon Standard",
+  "Mẫu thiết kế chuẩn tiệm (1024x64 / 1600x100)": "Salon Standard Template (1024x64 / 1600x100)",
+  "+ Áp dụng banner này": "+ Apply this banner",
+  "Đã nạp ảnh banner chuẩn của tiệm!": "Loaded salon standard banner!",
+  "Đã thêm ảnh banner từ máy tính!": "Uploaded banner image from PC!",
+  "Đã xóa ảnh banner!": "Removed banner image!",
+  "Xóa ảnh này": "Remove this image",
+  "Hỗ trợ PNG, JPG, WEBP. Kích thước lý tưởng: 1600x100 hoặc 1024x64. Ảnh tự động hiển thị đúng tỉ lệ chuẩn không bị méo hình!": "Supports PNG, JPG, WEBP. Recommended size: 1600x100 or 1024x64. Image auto-scales cleanly without distortion!",
+  "Vui lòng chọn file hình ảnh (PNG, JPG, WEBP)!": "Please select an image file (PNG, JPG, WEBP)!",
+
+  // Waitlist & Kiosk
+  "✓ Hàng chờ trống": "✓ Waitlist is empty",
+  "— Khách tự check-in trên iPad sẽ tự động hiện tại đây để điều phối mở hóa đơn.": "— Clients self check-in on iPad will automatically appear here to assign & open tickets.",
+  "· Khách tự check-in trên iPad sẽ tự động hiện tại đây để điều phối mở hóa đơn.": "· Clients self check-in on iPad will automatically appear here to assign & open tickets.",
+  "Khách tự check-in trên iPad sẽ tự động hiện tại đây để điều phối mở hóa đơn.": "Clients self check-in on iPad will automatically appear here to assign & open tickets.",
+  "Mở màn hình khách iPad": "Open iPad Kiosk",
+  "Mở màn hình clients iPad": "Open iPad Kiosk",
+  "Mở màn hình khách hàng": "Launch Customer Kiosk",
+  "Mở màn hình khách": "Open Customer Kiosk",
+  "Mở Cửa sổ Màn hình Khách riêng biệt": "Open Customer Kiosk in Separate Window",
+  "Mở cửa sổ màn hình khách": "Open Customer Kiosk Window",
+  "Chuyển sang Màn hình khách ngay trên máy này": "Switch to Customer Kiosk on this device",
+  "Khách chờ điều phối từ iPad / Kiosk": "Waiting Queue from iPad / Kiosk",
+  "Khách vừa check-in trên iPad. Bấm \"Vào làm ngay\" để gán thợ & mở hóa đơn, hoặc chuyển sang Sơ đồ để xếp bàn / ghế.": "Client checked in on iPad. Click \"Start Now\" to assign tech & open ticket, or view Floor Plan.",
+  "Khách vừa check-in trên iPad. Bấm": "Client checked in on iPad. Click",
+  "vừa check-in qua iPad! (Đã thêm vào danh sách chờ)": "just checked in via iPad! (Added to waitlist)",
+  "Hàng chờ": "Waitlist",
+  "Số thứ tự chờ phục vụ: #": "Queue Number: #",
+  "Thêm vào hàng chờ": "Add to Waitlist",
+  "Thêm khách vào hàng chờ": "Add Client to Waitlist",
+  "Xóa khỏi hàng chờ": "Remove from Waitlist",
+  "Chưa có khách chờ": "No clients waiting in queue",
+  "Không có khách chờ": "No waiting clients",
+  "Khách walk-in đến mà chưa có chỗ, thêm vào đây để không quên thứ tự.": "Add walk-in clients here when all stations are busy to preserve queue order.",
+  "Đã thêm vào hàng chờ": "Added to waitlist",
+  "Tự check-in từ màn hình khách": "Self check-in from kiosk",
+  "Đường dẫn trực tiếp cho iPad (Trình duyệt Safari/Chrome):": "Direct iPad URL (Safari / Chrome browser):",
+  "Khuyên dùng cho iPad Remote Desktop": "Recommended for iPad Remote Desktop",
+  "Hồ sơ và yêu cầu của quý khách đã được đồng bộ trực tiếp lên hệ thống quầy thu ngân!": "Your profile and requested services have been synced to the main register!",
+  "Cảm ơn quý khách đã đến với Rose Nail Spa": "Thank you for visiting Rose Nail Spa",
+  "Quý khách vui lòng chọn dịch vụ mong muốn": "Please select your desired services",
+  "Vui lòng nhập số điện thoại để check-in!": "Please enter your phone number to check in!",
+  "XÁC NHẬN DỊCH VỤ & CHECK-IN NGAY": "CONFIRM SERVICES & CHECK IN NOW",
+  "XÁC NHẬN DỊCH VỤ ($": "CONFIRM SERVICES ($",
+  "Dịch vụ muốn làm (": "Selected Services (",
+  "Nhập mã PIN của tiệm để quay về Màn hình quản lý POS": "Enter salon PIN to return to POS Register",
+  "Trở về Màn hình thu ngân POS (Yêu cầu mã PIN)": "Return to POS Register (PIN Required)",
+
+  // Main POS & Invoices sidebar
+  "Hóa đơn đang mở": "Open Tickets",
+  "hóa đơn đang mở": "open tickets",
+  "Invoices đang mở": "Open Tickets",
+  "Chưa có hóa đơn nào đang mở": "No open tickets",
+  "Chưa có hóa đơn": "No tickets yet",
+  "Chưa có dịch vụ trên hóa đơn": "No services on this ticket",
+  "Chưa chọn dịch vụ ·": "No services selected ·",
+  "Chưa chọn": "Not selected",
+  "Chưa có dịch vụ": "No services yet",
+  "Chưa có danh mục": "No categories yet",
+  "Chưa có thông tin": "No info available",
+  "Chưa có dữ liệu trong khoảng này": "No data in this period",
+  "Chưa có giao dịch điểm": "No point transactions yet",
+  "Chưa có hóa đơn nào dùng mã này.": "No tickets used this promo code yet.",
+  "Chưa có lịch hẹn": "No appointments yet",
+  "Không còn lịch hẹn hôm nay": "No more appointments today",
+  "Không có lịch hẹn trong 3 giờ tới": "No appointments in next 3 hours",
+  "Không có dịch vụ phù hợp": "No matching services found",
+  "Không có hóa đơn phù hợp": "No matching tickets found",
+  "Không tìm thấy khách": "No clients found",
+  "Không tìm thấy mã này": "Promo code not found",
+  "Không có voucher nào": "No vouchers available",
+  "Không có voucher nào còn hiệu lực": "No active vouchers",
+
+  // Stations & Floor Plan
+  "Bàn": "Table",
+  "Ghế": "Chair",
+  "Phòng": "Room",
+  "Hơ": "Dryer",
+  "Bàn nail": "Nail Table",
+  "Bàn Nail": "Nail Table",
+  "Ghế pedicure": "Pedi Chair",
+  "Ghế Pedicure": "Pedi Chair",
+  "Phòng wax": "Wax Room",
+  "Phòng Wax": "Wax Room",
+  "Bàn hơ khô": "Drying Station",
+  "Ghế Spa": "Spa Chair",
+  "Ghế làm chân": "Pedicure Chair",
+  "Ghế làm móng": "Nail Chair",
+  "Chuyển ghế": "Move Station",
+  "Xếp ghế": "Assign Station",
+  "Chỉnh sơ đồ": "Edit Floor Plan",
+  "Sơ đồ tiệm": "Salon Floor Plan",
+  "Sơ đồ": "Floor Plan",
+  "Xem Sơ đồ ghế": "View Floor Plan",
+  "Xem Sơ đồ ghế / bàn": "View Floor Plan & Stations",
+  "Chọn một vị trí đang trống": "Select an available station",
+  "Có chỗ ngay": "Immediate Opening",
+  "Hết chỗ loại này": "No stations of this type available",
+  "Vị trí này không trống": "This station is occupied",
+  "Vị trí sẽ chuyển về trạng thái trống, sẵn sàng đón khách.": "Station will be marked as available, ready for next client.",
+  "Đánh dấu đã dọn xong": "Mark as Cleaned",
+  "Đã dọn xong": "Cleaned",
+  "Đã dọn xong?": "Cleaned?",
+  "Cần dọn": "Needs Cleaning",
+  "cần dọn": "needs cleaning",
+  "Trống": "Available",
+  "trống": "available",
+  "Đang dùng": "Occupied",
+  "đang dùng": "occupied",
+  "Khu chờ": "Waiting Lounge",
+  "Khu hơ khô": "Drying Lounge",
+  "Khu làm móng tay": "Manicure Area",
+  "Cửa ra vào": "Entrance Door",
+  "Kéo thả để sắp xếp · chạm để đổi tên / xóa": "Drag to arrange · tap to rename / remove",
+  "Xếp vào bàn / ghế trên sơ đồ": "Assign to table / chair on floor plan",
+  "Xếp & mở hóa đơn": "Assign & Open Ticket",
+
+  // Technician Work & Detailed Reports
+  "Chi tiết": "Details",
+  "Xem chi tiết": "View Details",
+  "Xem báo cáo chi tiết": "View Detailed Report",
+  "Báo cáo thợ": "Technician Report",
+  "Báo cáo chi tiết thợ": "Detailed Tech Report",
+  "Báo cáo làm việc chi tiết của thợ": "Detailed Technician Work Report",
+  "Xem chi tiết các hóa đơn, dịch vụ và hoa hồng của thợ": "View detailed tickets, services, and technician commissions",
+  "Doanh số dịch vụ mang về": "Service Revenue Generated",
+  "Dịch vụ đã làm trong kỳ:": "Services Performed in Period:",
+  "Không có hóa đơn nào trong khoảng thời gian này": "No tickets found in this period",
+  "Không tìm thấy hóa đơn nào phù hợp với thợ trong khoảng thời gian này.": "No matching tickets found for this technician in this period.",
+  "Số hóa đơn / Lượt làm": "Ticket Count / Turns",
+  "Tiền tip nhận được": "Tips Received",
+  "Tổng thực nhận (Hoa hồng + Tip)": "Total Payout (Commission + Tip)",
+  "Chủ tiệm / Quản lý": "Owner / Manager",
+  "Thợ xác nhận": "Technician Signature",
+  "Thợ khách muốn": "Requested Tech",
+  "Thợ làm dịch vụ này": "Performing Tech",
+  "Thợ này đã có lịch": "Tech already booked",
+  "Thợ quen": "Preferred Tech",
+  "Thợ quen:": "Preferred Tech:",
+  "Thích Cindy làm": "Prefers Cindy",
+  "Thợ có doanh thu": "Techs with revenue",
+  "Doanh số thợ ($)": "Tech Sales ($)",
+  "Doanh thu theo thợ (Click xem chi tiết)": "Revenue by Tech (Click for Details)",
+  "Tip theo thợ (Click xem chi tiết)": "Tips by Tech (Click for Details)",
+  "Tiền hoa hồng thợ": "Tech Commission",
+  "Tổng thu nhập ($)": "Total Earnings ($)",
+  "TỔNG HỢP THU NHẬP:": "EARNINGS BREAKDOWN:",
+  "TỔNG THU NHẬP CHI TRẢ": "TOTAL PAYOUT AMOUNT",
+  "DANH SÁCH CHI TIẾT HÓA ĐƠN:": "DETAILED TICKET LIST:",
+  "Dịch vụ thợ đã thực hiện trong kỳ:": "Services performed in period:",
+  "Dịch vụ đã làm": "Services Performed",
+  "Đã xuất file Excel (.csv) cho thợ": "Exported Excel (.csv) for technician",
+  "Đã xuất file Excel (.csv) — mở bằng Excel": "Exported Excel (.csv) — open with Excel",
+  "Đúng lượt kế tiếp": "Next in Turn Rotation",
+  "Hoa hồng": "Commission",
+  "Hoa hồng phải từ 0 đến 100%": "Commission must be 0% to 100%",
+  "Lương cứng": "Base Pay",
+  "Lượt dịch vụ": "Services Done",
+  "Số lượt": "Turns",
+  "Số lần": "Times",
+  "Lượt làm": "Services Done",
+  "Đang làm việc": "On Duty",
+  "Đã nghỉ việc": "Inactive / Left",
+  "Cho thợ nghỉ": "Clock out tech",
+  "Nghỉ · chạm để vào ca": "Off · tap to clock in",
+  "Thêm, sửa, xóa thợ và thiết lập hoa hồng": "Add, edit, remove technicians and set commission rates",
+  "Sửa thông tin thợ": "Edit Technician Info",
+  "Đã cập nhật thợ": "Technician updated successfully",
+  "Đã thêm thợ": "Technician added successfully",
+  "Xóa thợ": "Remove Technician",
+  "Hóa đơn cũ vẫn giữ tên thợ. Nếu thợ chỉ nghỉ tạm, hãy tắt “Đang làm việc” thay vì xóa.": "Past tickets preserve technician name. If taking a break, turn off 'On Duty' instead of deleting.",
+
+  // Checkout, Invoices & Receipt
+  "Tạo hóa đơn": "Create Ticket",
+  "Mở hóa đơn": "Open Ticket",
+  "Mở hóa đơn đang làm": "Open In-Progress Ticket",
+  "Khách đến · Tạo hóa đơn": "Client Arrived · Open Ticket",
+  "Hóa đơn khách vãng lai": "Walk-in Ticket",
+  "Hóa đơn dùng voucher": "Voucher Discounted Ticket",
+  "Hóa đơn cũ không bị ảnh hưởng.": "Past invoices will not be affected.",
+  "Hóa đơn này không còn mở": "This ticket is no longer open",
+  "Hóa đơn sẽ có sẵn:": "Ticket will include:",
+  "Hủy HĐ": "Void Ticket",
+  "Hủy hóa đơn này?": "Void this ticket?",
+  "Toàn bộ dịch vụ trên hóa đơn sẽ bị xóa và không thể khôi phục.": "All services on this ticket will be removed and cannot be restored.",
+  "In hóa đơn ra máy in nhiệt hoặc máy in thường": "Print receipt to thermal printer or desktop printer",
+  "In lại": "Reprint",
+  "In thử": "Test Print",
+  "In thử một hóa đơn mẫu": "Print sample test receipt",
+  "Mẫu hóa đơn": "Receipt Template",
+  "Mã voucher": "Promo Code",
+  "Sao chép mã": "Copy Code",
+  "Tạo mã giảm giá và theo dõi lượt sử dụng": "Create promo codes and track redemptions",
+  "Tạo voucher mới": "Create Promo Voucher",
+  "Voucher đã dùng": "Used Voucher",
+  "Voucher đã hết hạn": "Expired Voucher",
+  "Voucher đã hết lượt dùng": "Promo Code Limit Reached",
+  "Áp dụng cho mọi hóa đơn": "Applies to all tickets",
+  "Áp dụng cho đơn từ $": "Applies to orders from $",
+  "Không giới hạn số lần dùng": "Unlimited uses",
+  "Không hết hạn": "Never expires",
+  "Để trống = không hết hạn": "Leave blank = never expires",
+  "Cần chi tối thiểu": "Minimum spend required",
+  "Còn lại phải thu": "Remaining Balance Due",
+  "Còn thiếu": "Remaining Due",
+  "Tiền mặt cần có trong két (chưa tính tiền đầu ca):": "Cash required in drawer (excluding starting float):",
+  "Đối chiếu tiền trong két với số liệu bên dưới": "Reconcile physical cash drawer with totals below",
+  "Tiền thu theo hình thức": "Collected by Payment Method",
+  "Tiền giảm do voucher": "Voucher Discount",
+  "Tiền giảm theo voucher": "Voucher Discount",
+  "Phương thức TT": "Payment Method",
+  "Mọi hình thức": "All Methods",
+  "Cơ cấu thanh toán": "Payment Breakdown",
+  "Thêm thanh toán": "Add Payment Split",
+  "Thêm vào hóa đơn": "Add to Ticket",
+  "Xóa dòng": "Remove Line",
+  "Dịch vụ / mục tự nhập": "Service / Custom Item",
+  "Mục tự nhập": "Custom Line Item",
+  "Dùng cho mục chưa có trong danh mục": "For items not currently in catalog",
+  "Tên ngắn hiện trên màn hình quầy": "Short name displayed on register",
+  "Tên hiển thị": "Display Name",
+  "Tên hiển thị *": "Display Name *",
+  "Tên danh mục": "Category Name",
+  "Tên mục": "Item Name",
+  "Nhập tên dịch vụ": "Enter service name",
+  "Nhập tên hiển thị": "Enter display name",
+  "Nhập giá hợp lệ": "Enter a valid price",
+  "Nhập giá trị giảm lớn hơn 0": "Discount value must be greater than 0",
+  "Giá ($)": "Price ($)",
+  "Giá trị": "Value",
+  "Giá trị đổi": "Redeem Value",
+  "Giảm (đô)": "Discount ($)",
+  "Phần trăm (%)": "Percentage (%)",
+  "Phần trăm tối đa là 100": "Maximum percentage is 100%",
+  "Mức tip gợi ý (%) khi thanh toán": "Suggested tip presets (%) at checkout",
+  "Mẹo: bấm trực tiếp vào ô giá để sửa nhanh, nhấn Enter hoặc bấm ra ngoài để lưu.": "Tip: Click directly on the price cell to edit quickly, press Enter or click outside to save.",
+
+  // Loyalty & Points
+  "Điểm": "Points",
+  "Số dư điểm": "Point Balance",
+  "Điểm hiện có": "Current Points",
+  "Điểm còn lại": "Remaining Points",
+  "Điểm cộng": "Earned Points",
+  "Điểm cộng thêm": "Bonus Points",
+  "Điểm cộng theo ngày": "Points Earned by Day",
+  "Điểm đã cộng": "Points Awarded",
+  "Điểm đã đổi": "Points Redeemed",
+  "Điểm đang lưu hành": "Points in Circulation",
+  "Điểm theo khách (top 10)": "Points by Client (Top 10)",
+  "Điểm cao nhất": "Top Points",
+  "Điểm cho mỗi đô": "Points per Dollar",
+  "Dùng điểm": "Redeem Points",
+  "Dùng điểm tích lũy": "Redeem Loyalty Points",
+  "Bỏ dùng điểm": "Cancel Point Redemption",
+  "Đã bỏ dùng điểm vì hóa đơn thay đổi": "Points redemption cancelled due to ticket change",
+  "Quy tắc cộng / đổi điểm và số dư của từng khách": "Rules for earning/redeeming points and client balances",
+  "Quy tắc": "Rules",
+  "Quy đổi:": "Exchange Rate:",
+  "Tối đa % hóa đơn": "Max % of ticket",
+  "Cần tối thiểu": "Minimum required",
+  "Không thể trừ quá số dư": "Cannot deduct more than balance",
+  "Gắn khách hàng để dùng điểm": "Attach client to redeem points",
+  "Gắn khách hàng (tích điểm, voucher)": "Attach client (loyalty points, promos)",
+  "Gắn khách hàng": "Attach Client",
+  "Chọn một khách để xem điểm": "Select a client to view points",
+  "Lưu điều chỉnh": "Save Adjustment",
+  "Lý do (bắt buộc)": "Reason (required)",
+
+  // Clients & Notes
+  "Khách VIP, luôn tip tốt": "VIP Client, generous tipper",
+  "Khách mới trong kỳ": "New Clients in Period",
+  "Khách chi tiêu nhiều nhất": "Top Spending Clients",
+  "Cơ cấu khách đã phục vụ": "Client Breakdown Served",
+  "Hay đi cùng con gái (Kids)": "Often visits with daughter (Kids)",
+  "Hay đặt lịch thứ Bảy": "Regularly books on Saturday",
+  "Thích màu nude, không thích móng quá dài": "Prefers nude shades, dislikes very long nails",
+  "Móng yếu, ưu tiên gel": "Weak natural nails, prefers builder gel",
+  "Dị ứng acetone nhẹ — dùng remover không acetone": "Mild acetone sensitivity — use non-acetone remover",
+  "Hai mẹ con": "Mother and daughter",
+  "Mang mẫu design": "Brought custom photo design",
+  "Muốn gel màu hồng": "Requested soft pink gel",
+  "Đi 2 người": "Party of 2",
+  "Sở thích, dị ứng, lưu ý khi làm…": "Preferences, allergies, special notes…",
+  "Ghi chú nội bộ": "Internal Staff Notes",
+  "Tên hoặc số điện thoại…": "Client name or phone…",
+  "Tra cứu khách theo tên / số điện thoại…": "Search clients by name / phone…",
+  "Số điện thoại cần 10 chữ số": "Phone number must be 10 digits",
+  "Số này đã có khách khác dùng": "This phone number is already registered",
+  "Họ tên đầy đủ": "Full Name",
+  "Tên khách": "Client Name",
+  "Tên khách *": "Client Name *",
+  "Chọn một khách hàng": "Select a Client",
+  "Chọn hoặc thêm khách…": "Select or add client…",
+  "Khách cũ…": "Existing client…",
+  "Khách khác…": "Other client…",
+  "Khách từ": "Client since",
+  "Sinh nhật khách": "Client Birthday",
+  "Sinh nhật": "Birthday",
+  "Để tặng voucher sinh nhật": "To send birthday promo gift",
+  "Giới thiệu bạn bè": "Referred by a friend",
+  "Tặng khách thân thiết": "Gift for regular client",
+  "Xóa khách": "Delete Client",
+  "Hóa đơn cũ vẫn được giữ lại trong lịch sử. Điểm tích lũy của khách sẽ không còn tra cứu được.": "Past tickets remain in history. Accumulated loyalty points will be cleared.",
+
+  // Appointments
+  "Lịch hẹn sắp đến": "Upcoming Appointments",
+  "Lịch hẹn theo thợ": "Appointments by Tech",
+  "Số lịch hẹn theo ngày": "Appointments by Day",
+  "Đặt lịch hẹn mới": "Book New Appointment",
+  "Đặt lịch": "Book Appointment",
+  "Thêm lịch": "Add Booking",
+  "Sửa / dời lịch hẹn": "Edit / Reschedule Appointment",
+  "Sửa / Dời": "Edit / Reschedule",
+  "Khôi phục lịch hẹn": "Restore Appointment",
+  "Xóa lịch hẹn này?": "Delete this appointment?",
+  "Đã đặt lịch hẹn": "Appointment scheduled successfully",
+  "Đã tạo hóa đơn cho lịch hẹn này": "Ticket generated for this appointment",
+  "Đến trễ 10 phút": "10 minutes late",
+  "Dùng cho lưới lịch hẹn theo giờ": "Used for hourly appointment calendar view",
+  "Thời gian:": "Time:",
+  "Thời gian": "Time",
+  "Từ ngày": "From Date",
+  "Đến ngày": "To Date",
+  "Ngày giờ": "Date & Time",
+  "Hôm nay": "Today",
+  "Hôm qua": "Yesterday",
+  "Trong kỳ lọc": "In filtered period",
+
+  // Settings & Security
+  "Thiết lập tiệm, máy in, bảo mật và dữ liệu": "Configure salon profile, printers, security and data",
+  "Khẩu hiệu / loại hình": "Tagline / Business Category",
+  "Dòng chân trang": "Receipt Footer Note",
+  "Loại máy in": "Printer Type",
+  "Máy in nhiệt": "Thermal Receipt Printer",
+  "Máy in nhiệt 80mm": "Thermal Printer 80mm",
+  "Máy in nhiệt 58mm": "Thermal Printer 58mm",
+  "Máy in thường (A4)": "Standard Desktop Printer (A4)",
+  "Khổ phổ biến nhất (Epson, Xprinter…)": "Most popular format (Epson, Star, MUNBYN...)",
+  "Khổ nhỏ, giấy hẹp": "Compact format, narrow roll",
+  "Laser / phun mực văn phòng": "Office laser / inkjet printer",
+  "Số bản in": "Copies",
+  "Số bản mỗi lần in": "Number of receipt copies printed",
+  "Tự động in sau khi thanh toán": "Auto print receipt upon checkout",
+  "Mã PIN bảo vệ Báo cáo, Dịch vụ, Thợ, Mẫu hóa đơn và Cài đặt": "PIN protects Reports, Services, Techs, Receipt Template, and Settings",
+  "Mã PIN bảo vệ tránh khách hàng bấm nhầm vào phần quản trị": "PIN protects admin settings from unauthorized access",
+  "Xác thực Quản lý / Thu ngân": "Manager / Cashier Authorization",
+  "Xác thực mã PIN Chủ tiệm / Quản lý:": "Owner / Manager PIN Authorization:",
+  "Nhập mã PIN để mở": "Enter PIN to unlock",
+  "Nhập mã PIN để tiếp tục": "Enter PIN to proceed",
+  "Nhập mã PIN (••••)": "Enter PIN (••••)",
+  "Quản Lý & Xóa Dữ Liệu Báo Cáo": "Manage & Clear Report Data",
+  "Xóa dữ liệu cũ, chỉ giữ lại 30 ngày gần nhất hoặc xóa theo ý muốn của chủ tiệm": "Clear historical data, keep only past 30 days, or wipe records as needed",
+  "Xóa dữ liệu trong khoảng thời gian đang lọc (": "Clear data in selected date range (",
+  "Xóa tất cả các hóa đơn, lịch hẹn cũ hơn 30 ngày trước (trước ngày": "Delete all tickets and bookings older than 30 days (before date",
+  "Xóa toàn bộ doanh thu (Làm mới số liệu tiệm)": "Reset all revenue records (Fresh start)",
+  "Xóa sạch tất cả hóa đơn và lịch hẹn để bắt đầu lại từ đầu. Vẫn giữ nguyên 100% danh mục Dịch vụ, Thợ và Khách hàng.": "Wipe all tickets and appointments to start fresh. Keeps 100% of Services, Staff and Clients.",
+  "Tự động dọn dẹp: Luôn chỉ lưu dữ liệu trong 30 ngày gần nhất mỗi khi mở ứng dụng": "Auto cleanup: Keep only the most recent 30 days of data upon app launch",
+  "Tải bản sao lưu dự phòng": "Download backup snapshot",
+  "Tải file JSON sao lưu dự phòng toàn bộ dữ liệu máy tính trước khi xóa": "Download JSON backup file before performing any data wipe",
+  "Xác nhận Xóa": "Confirm Deletion",
+  "Đã xóa dữ liệu": "Data cleared successfully",
+  "Đã làm mới dữ liệu doanh thu (": "Reset revenue data (",
+  "Phần mềm chạy hoàn toàn trên máy này, không cần Internet": "Runs completely offline on this machine — no internet required"
+};
+
+// Check against bad list and fill any remaining
+for (const b of badList) {
+  if (!fullMap[b.vi]) {
+    // Clean up partial Vietnamese in b.en
+    let en = b.en;
+    en = en.replace(/hóa đơn/gi, 'tickets')
+           .replace(/invoices/gi, 'tickets')
+           .replace(/dịch vụ/gi, 'services')
+           .replace(/services/gi, 'services')
+           .replace(/thợ/gi, 'techs')
+           .replace(/khách/gi, 'clients')
+           .replace(/clients/gi, 'clients')
+           .replace(/điểm/gi, 'points')
+           .replace(/points/gi, 'points')
+           .replace(/tiền/gi, 'amount')
+           .replace(/ngày/gi, 'days')
+           .replace(/tháng/gi, 'month')
+           .replace(/năm/gi, 'year')
+           .replace(/giờ/gi, 'hour')
+           .replace(/phút/gi, 'mins')
+           .replace(/lượt làm/gi, 'services')
+           .replace(/lượt/gi, 'turns')
+           .replace(/bàn/gi, 'table')
+           .replace(/ghế/gi, 'chair')
+           .replace(/phòng/gi, 'room')
+           .replace(/đang mở/gi, 'open')
+           .replace(/đang làm/gi, 'busy')
+           .replace(/rảnh/gi, 'available')
+           .replace(/nghỉ/gi, 'off duty')
+           .replace(/tự check-in/gi, 'self check-in')
+           .replace(/trên/gi, 'on')
+           .replace(/sẽ tự động hiện tại đây để điều phối mở/gi, 'will appear here to assign & open')
+           .replace(/tại tiệm/gi, 'at salon')
+           .replace(/chính hãng/gi, 'authentic')
+           .replace(/chăm sóc móng/gi, 'nail care')
+           .replace(/mang về/gi, 'generated')
+           .replace(/nhận được/gi, 'received')
+           .replace(/thực nhận/gi, 'net payout')
+           .replace(/trong kỳ/gi, 'in period')
+           .replace(/xác nhận/gi, 'signature')
+           .replace(/chủ tiệm \/ quản lý/gi, 'owner / manager')
+           .replace(/bỏ dùng/gi, 'cancel')
+           .replace(/bỏ/gi, 'remove')
+           .replace(/bớt/gi, 'deduct')
+           .replace(/chọn/gi, 'select')
+           .replace(/chưa có/gi, 'no')
+           .replace(/không có/gi, 'no')
+           .replace(/hàng chờ trống/gi, 'queue is empty')
+           .replace(/mở màn hình/gi, 'open screen')
+           .replace(/quản lý/gi, 'manager')
+           .replace(/cài đặt/gi, 'settings')
+           .replace(/báo cáo/gi, 'reports');
+    fullMap[b.vi] = en;
+  }
+}
+
+console.log('Total entries mapped in fullMap:', Object.keys(fullMap).length);
+fs.writeFileSync('C:/Users/thaibao/.gemini/antigravity/scratch/nails-store-pos/scripts/full_map.json', JSON.stringify(fullMap, null, 2), 'utf8');
+console.log('Saved to scripts/full_map.json');
