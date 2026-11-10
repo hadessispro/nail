@@ -71,21 +71,20 @@ function startLocalServer(port = 5000) {
       return;
     }
 
-    // Static Files
+    // Static Files: prioritize compiled dist bundle
     const basePath = path.join(__dirname, '..');
     let reqUrl = req.url.split('?')[0].split('#')[0];
     if (reqUrl === '/') reqUrl = '/index.html';
 
-    let filePath = path.join(basePath, reqUrl);
-    // If not found in root, check in dist/
+    let filePath = path.join(basePath, 'dist', reqUrl);
     if (!fs.existsSync(filePath)) {
-      filePath = path.join(basePath, 'dist', reqUrl);
+      filePath = path.join(basePath, reqUrl);
     }
     // Fallback to index.html for SPA routes
     if (!fs.existsSync(filePath)) {
-      filePath = path.join(basePath, 'index.html');
+      filePath = path.join(basePath, 'dist', 'index.html');
       if (!fs.existsSync(filePath)) {
-        filePath = path.join(basePath, 'dist', 'index.html');
+        filePath = path.join(basePath, 'index.html');
       }
     }
 
@@ -150,7 +149,8 @@ function createWindow() {
       contextIsolation: true,
       nodeIntegration: false,
       sandbox: false,
-      spellcheck: false
+      spellcheck: false,
+      webSecurity: false
     }
   });
 
